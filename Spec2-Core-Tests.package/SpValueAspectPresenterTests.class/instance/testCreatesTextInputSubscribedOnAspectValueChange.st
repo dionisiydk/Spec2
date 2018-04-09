@@ -1,5 +1,5 @@
 tests
-testSubscribedOnValueChange
+testCreatesTextInputSubscribedOnAspectValueChange
 		
 	| textInputView |
 	presenter model value: 100.
