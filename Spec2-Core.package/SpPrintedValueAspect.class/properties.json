@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"actualAspect"
+		"actualValueHolder"
 	],
 	"name" : "SpPrintedValueAspect",
 	"type" : "normal"

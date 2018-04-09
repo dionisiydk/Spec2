@@ -1,0 +1,3 @@
+accessing
+aspectName
+	^aspect name

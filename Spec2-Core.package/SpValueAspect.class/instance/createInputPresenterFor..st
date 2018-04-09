@@ -1,0 +1,4 @@
+presentation
+createInputPresenterFor: aValueHolder
+
+	^inputPresenter createNewForAspect: aValueHolder

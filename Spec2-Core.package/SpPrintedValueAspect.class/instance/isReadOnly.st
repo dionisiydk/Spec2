@@ -1,3 +1,3 @@
 testing
 isReadOnly
-	^actualAspect isReadOnly
+	^actualValueHolder isReadOnly

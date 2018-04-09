@@ -1,0 +1,3 @@
+accessing
+createInputPresenter
+	^aspect createInputPresenterFor: self

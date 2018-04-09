@@ -1,5 +1,5 @@
 aspect support
-createNewForAspect: aValueAspect
+createNewForAspect: aValueHolder
 
 	^self copy
-		model: aValueAspect asPrintedAspect asValueHolder
+		model: aValueHolder asTextValueHolder

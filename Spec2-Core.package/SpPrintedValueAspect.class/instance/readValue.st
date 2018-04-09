@@ -1,3 +1,3 @@
 operations
 readValue
-	^stringConverter convertValueToString: actualAspect readValue
+	^stringConverter convertValueToString: actualValueHolder value
