@@ -3,5 +3,6 @@ attachToView
 	
 	view inputRestriction: inputRestriction.
 	view textDecoration: textDecoration.
+	self updateView.
 	
-	self updateView
+	view whenTextChangedSend: #updateModel to: self

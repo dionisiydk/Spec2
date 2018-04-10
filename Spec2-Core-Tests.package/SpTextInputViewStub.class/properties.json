@@ -7,7 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"textDecoration",
-		"inputRestriction"
+		"inputRestriction",
+		"changesSubscriber",
+		"handlerSelector"
 	],
 	"name" : "SpTextInputViewStub",
 	"type" : "normal"
