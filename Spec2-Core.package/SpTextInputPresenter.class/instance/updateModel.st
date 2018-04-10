@@ -1,4 +1,7 @@
 updating
 updateModel
 
-	model value: view contents asString
+	| nativeString |
+	nativeString := textDecoration convertDecoratedTextToNative: view contents asString.
+	
+	model value: nativeString

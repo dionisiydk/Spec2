@@ -7,4 +7,5 @@ testBuildingTextInputPresenter
 	
 	presenter buildIn: ui.
 	
-	self assert: presenter view notNil
+	self assert: presenter view notNil.
+	self assert: presenter view contents equals: '2'.
