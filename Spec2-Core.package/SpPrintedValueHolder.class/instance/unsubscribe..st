@@ -1,7 +1,7 @@
 subscription
 unsubscribe: anObject
 	
-	super unsubscribe: anObject.
+	self announcer unsubscribe: anObject.
 	
 	announcer numberOfSubscriptions = 0 ifTrue: [ 
-		baseValueHolder unsubscribe: self ]
+		baseValueHolder announcer unsubscribe: self ]

@@ -1,3 +1,4 @@
 accessing
 synchronize
-	value := stringConverter convertValueToString: baseValueHolder value
+
+	self value: (stringConverter convertValueToString: baseValueHolder value)
