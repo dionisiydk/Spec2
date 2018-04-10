@@ -1,3 +1,0 @@
-operations
-readValue
-	^stringConverter convertValueToString: actualValueHolder value

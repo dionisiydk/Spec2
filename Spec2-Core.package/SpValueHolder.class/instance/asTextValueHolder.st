@@ -1,4 +1,4 @@
 converting
 asTextValueHolder
 
-	^(aspect asPrintedAspectOf: self) asValueHolder
+	^SpPrintedValueHolder of: self stringConverter: aspect stringConverter

@@ -1,3 +1,4 @@
 initialization
 detachFromModel
-	"Here subclasses should unsubscribe from model events"
+	
+	model unsubscribe: self

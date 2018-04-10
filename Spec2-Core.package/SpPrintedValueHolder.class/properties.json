@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueAspect",
+	"super" : "NewValueHolder",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"actualValueHolder"
+		"baseValueHolder",
+		"stringConverter"
 	],
-	"name" : "SpPrintedValueAspect",
+	"name" : "SpPrintedValueHolder",
 	"type" : "normal"
 }

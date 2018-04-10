@@ -5,7 +5,6 @@ testConvertingToTextValueHolder
 	holder := (1@3) aspect x asValueHolder.
 	textHolder := holder asTextValueHolder.
 	
-	self assert: textHolder class equals: SpValueHolder.
-	self assert: textHolder aspect class equals: SpPrintedValueAspect.
-	self assert: textHolder aspect actualValueHolder equals: holder.
-	self assert: textHolder announcer equals: holder announcer.
+	self assert: textHolder class equals: SpPrintedValueHolder.
+	self assert: textHolder baseValueHolder equals: holder.
+	self assert: textHolder stringConverter equals: holder aspect stringConverter
