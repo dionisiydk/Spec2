@@ -8,3 +8,4 @@ testConvertingToTextValueHolder
 	self assert: textHolder class equals: SpValueHolder.
 	self assert: textHolder aspect class equals: SpPrintedValueAspect.
 	self assert: textHolder aspect actualValueHolder equals: holder.
+	self assert: textHolder announcer equals: holder announcer.
