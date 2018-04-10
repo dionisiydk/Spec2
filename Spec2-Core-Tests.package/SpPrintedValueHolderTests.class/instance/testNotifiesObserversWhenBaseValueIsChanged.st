@@ -1,5 +1,5 @@
 tests
-testIsNotifiedWhenBaseValueIsChanged
+testNotifiesObserversWhenBaseValueIsChanged
 	| holder baseHolder changed |
 	changed := false.
 	baseHolder := 2 asValueHolder.
@@ -9,6 +9,4 @@ testIsNotifiedWhenBaseValueIsChanged
 	baseHolder value: 20.
 	self assert: baseHolder value equals: 20.
 	
-	self assert: changed.
-	self assert: holder value equals: '20'.
-	
+	self assert: changed
