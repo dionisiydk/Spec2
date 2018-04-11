@@ -12,4 +12,4 @@ convertNativePosition: index toDecoratedOn: aString
 		 ].
 		nativeIndex >= index ifTrue: [ ^i ]].
 	
-	self error: 'should not happens'
+	^aString size
