@@ -3,5 +3,5 @@ synchronize
 
 	self handleCircularReferencesWhile: [ | oldValue |
 		oldValue := value.
-		value := (stringConverter convertValueToString: baseValueHolder value).
+		value := baseValueHolder value convertValueToStringBy: stringConverter.
 		self valueChanged: oldValue]

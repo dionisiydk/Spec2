@@ -1,3 +1,3 @@
 operations
 convertValueToString: aNumber
-	^aNumber printString
+	^aNumber displayString
