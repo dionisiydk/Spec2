@@ -17,4 +17,5 @@ zapSelectionWith: newText
 	decoratedEnd := self textDecoration 
 		convertNativePosition: nativeStart + newText size - 1 toDecoratedOn: self text.
 	self markIndex: start pointIndex: decoratedEnd + 1.
-	self editingState previousInterval: self selectionInterval
+	self editingState previousInterval: self selectionInterval.
+	self publishTextChanges

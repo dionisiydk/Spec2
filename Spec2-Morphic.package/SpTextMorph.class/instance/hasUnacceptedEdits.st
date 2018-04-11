@@ -1,0 +1,3 @@
+testing
+hasUnacceptedEdits
+	^textMorph hasUnacceptedEdits

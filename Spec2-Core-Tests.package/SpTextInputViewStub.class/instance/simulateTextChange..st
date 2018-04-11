@@ -1,6 +1,6 @@
 event simulation
 simulateTextChange: newValue
 
-	self showNewText: newValue.
+	contents := newValue.
 	
 	changesSubscriber perform: handlerSelector

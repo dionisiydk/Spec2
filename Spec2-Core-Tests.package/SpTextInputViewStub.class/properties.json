@@ -9,7 +9,8 @@
 		"textDecoration",
 		"inputRestriction",
 		"changesSubscriber",
-		"handlerSelector"
+		"handlerSelector",
+		"updateCount"
 	],
 	"name" : "SpTextInputViewStub",
 	"type" : "normal"

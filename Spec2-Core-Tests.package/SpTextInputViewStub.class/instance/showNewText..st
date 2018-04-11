@@ -1,4 +1,5 @@
 operations
 showNewText: aString
-
-	contents := aString
+	
+	contents := aString.
+	updateCount := updateCount + 1

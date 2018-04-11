@@ -1,4 +1,4 @@
 subscription
 whenTextChangedSend: aSelector to: aSubscriber
 
-	textMorph announcer when: RubTextChanged send: aSelector to: aSubscriber
+	self announcer when: SpTextMorphContentsAccepted send: aSelector to: aSubscriber
