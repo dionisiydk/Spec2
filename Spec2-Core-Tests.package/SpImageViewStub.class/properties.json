@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpViewStub",
+	"category" : "Spec2-Core-Tests-StubUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpImageViewStub",
+	"type" : "normal"
+}

@@ -1,3 +1,3 @@
 operations
 convertValueToString: aString
-	^ aString
+	^ aString asString
