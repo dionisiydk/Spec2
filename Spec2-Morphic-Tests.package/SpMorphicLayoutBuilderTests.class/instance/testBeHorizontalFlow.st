@@ -5,4 +5,4 @@ testBeHorizontalFlow
 	
 	self assert: morph layoutPolicy class equals: TableLayout.
 	self assert: morph listDirection equals: #leftToRight.
-	self assert: morph wrapDirection equals: #topToBottom
+	self assert: morph wrapDirection equals: #none
