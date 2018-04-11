@@ -1,4 +1,4 @@
-as yet unclassified
+converting
 convertValueToStringBy: aValueToStringConverter
 
 	^self displayString
