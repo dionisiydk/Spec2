@@ -1,3 +1,0 @@
-initialization
-createRubTextMorph
-	^textModel newScrolledText

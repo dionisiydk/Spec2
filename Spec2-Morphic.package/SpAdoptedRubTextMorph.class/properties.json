@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RubPluggableTextMorph",
+	"category" : "Spec2-Morphic-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpAdoptedRubTextMorph",
+	"type" : "normal"
+}

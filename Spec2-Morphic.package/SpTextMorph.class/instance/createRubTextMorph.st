@@ -1,3 +1,5 @@
 initialization
 createRubTextMorph
-	self subclassResponsibility 
+	^(SpAdoptedRubTextMorph on: textModel) 
+		getSelectionSelector: #primarySelectionInterval; 
+		yourself
