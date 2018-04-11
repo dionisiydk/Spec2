@@ -1,0 +1,3 @@
+testing
+isBuilt
+	^view notNil
