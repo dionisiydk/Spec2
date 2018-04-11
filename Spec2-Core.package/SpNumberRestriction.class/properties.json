@@ -9,6 +9,6 @@
 		"minValue",
 		"maxValue"
 	],
-	"name" : "SpNumberValueRestriction",
+	"name" : "SpNumberRestriction",
 	"type" : "normal"
 }

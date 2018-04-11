@@ -3,7 +3,7 @@ testCreationByBuilderWithCustomRestriction
 	"#build message is normally hidden from user. 
 	It is called implicitly when value holder is requested from builder"
 	| restriction |
-	restriction := SpNumberValueRestriction minValue: 10 maxValue: 30.
+	restriction := SpNumberRestriction minValue: 10 maxValue: 30.
 	aspect := (2@3) aspect x
 		restriction: restriction;
 		build.

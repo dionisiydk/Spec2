@@ -1,7 +1,7 @@
 *Spec2-Core
 setUpDefaultAspectParameters: aValueAspect
 	aValueAspect 
-		restriction: SpNumberValueRestriction default;
+		restriction: SpNumberRestriction default;
 		stringConverter: SpNumberToStringConverter default;
 		displayDecoration: SpSmartNumberDecoration default;
 		inputPresenter: (SpTextInputPresenter 

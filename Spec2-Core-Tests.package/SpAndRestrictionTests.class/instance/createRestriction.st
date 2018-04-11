@@ -2,5 +2,5 @@ tests
 createRestriction
 
 	^SpAndRestriction 
-		option1: (SpNumberValueRestriction minValue: 10 maxValue: 30) 
-		option2: (SpNumberValueRestriction minValue: 20 maxValue: 50)
+		option1: (SpNumberRestriction minValue: 10 maxValue: 30) 
+		option2: (SpNumberRestriction minValue: 20 maxValue: 50)

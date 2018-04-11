@@ -1,7 +1,7 @@
 tests
 testMatchingNumbers
 
-	restriction := SpNumberValueRestriction minValue: 10 maxValue: 20.
+	restriction := SpNumberRestriction minValue: 10 maxValue: 20.
 	
 	self assert: (restriction matches: 12).
 	self assert: (restriction matches: 20).

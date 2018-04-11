@@ -4,7 +4,7 @@ testCheckingValidNilValueWhenItIsNotOptional
 	It is called implicitly when value holder is requested from builder"
 	
 	aspect := (2@3) aspect x
-		restriction: (SpNumberValueRestriction minValue: 100 maxValue: 500);
+		restriction: (SpNumberRestriction minValue: 100 maxValue: 500);
 		build.
 	
 	self deny: (aspect isValueValid: nil)

@@ -5,7 +5,7 @@ testCheckingValidNilValueWhenItIsOptional
 	
 	aspect := (2@3) aspect x
 		optional
-		restriction: (SpNumberValueRestriction minValue: 100 maxValue: 500);
+		restriction: (SpNumberRestriction minValue: 100 maxValue: 500);
 		build.
 	
 	self assert: (aspect isValueValid: nil)

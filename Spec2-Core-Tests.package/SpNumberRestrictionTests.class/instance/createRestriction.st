@@ -1,0 +1,3 @@
+tests
+createRestriction
+	^SpNumberRestriction new
