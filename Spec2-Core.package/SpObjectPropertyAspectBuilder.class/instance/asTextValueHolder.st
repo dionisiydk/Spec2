@@ -1,4 +1,4 @@
-*Spec2-Core
+converting
 asTextValueHolder
 
 	^self asValueHolder asTextValueHolder
