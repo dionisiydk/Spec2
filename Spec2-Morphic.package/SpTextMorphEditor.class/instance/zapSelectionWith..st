@@ -2,6 +2,7 @@ accessing-selection
 zapSelectionWith: newText
 	"The main logic is copied from superclass and adopted for decoration and validation"
 	| start stop decoratedText nativeStart decoratedEnd |
+	self canChangeText ifFalse: [ ^ self ].
 	start := self startIndex.
 	stop := self stopIndex.
 	(self validateModificationBy: newText) ifFalse: [ ^self ].	

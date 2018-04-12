@@ -1,6 +1,6 @@
 tests
 testAllowAnyValueByDefault
 
-	aspect := SpObjectPropertyAspect new.
+	aspect := self aspectExample.
 	
 	self assert: aspect restriction == SpAnyValueRestriction default

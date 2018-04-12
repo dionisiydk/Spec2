@@ -1,6 +1,6 @@
 tests
 testNotNilEmptyValueByDefault
 
-	aspect := SpObjectPropertyAspect new.
+	aspect := self aspectExample.
 	
 	self assert: aspect emptyValues equals: #(nil)

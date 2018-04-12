@@ -1,3 +1,3 @@
 accessing
 defaultName
-	self subclassResponsibility 
+	^'noname'

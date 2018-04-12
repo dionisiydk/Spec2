@@ -1,6 +1,6 @@
 tests
 testNotOptionalByDefault
 
-	aspect := SpObjectPropertyAspect new.
+	aspect := self aspectExample.
 	
 	self deny: aspect isOptional

@@ -1,4 +1,4 @@
 printing
 printDetailsOn: aStream
 
-	aStream nextPutAll: name
+	aStream nextPutAll: self name

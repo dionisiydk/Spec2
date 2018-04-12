@@ -1,6 +1,6 @@
 tests
 testHasNoDisplayDecorationByDefault
 
-	aspect := SpObjectPropertyAspect new.
+	aspect := self aspectExample.
 	
 	self assert: aspect displayDecoration == SpNoTextDecoration default
