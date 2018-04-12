@@ -1,4 +1,4 @@
-accessing
+aspect definitions
 useSlot
 	"Method affects the getter of aspect. 
 	We override it to avoid default parameters initialization 

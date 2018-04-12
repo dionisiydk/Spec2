@@ -1,8 +1,8 @@
-reflective operations
+aspect definitions
 doesNotUnderstand: aMessage
 
 	aspect 
-		ifNil: [ 	self createAspectFrom: aMessage ]
+		ifNil: [ 	self createPropertyAspectFrom: aMessage ]
 		ifNotNil: [ 
 			self ensureDefaultParameters.
 			aMessage sendTo: aspect]

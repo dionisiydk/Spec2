@@ -1,4 +1,3 @@
 accessing
 readOnly
-
 	isReadOnly := true

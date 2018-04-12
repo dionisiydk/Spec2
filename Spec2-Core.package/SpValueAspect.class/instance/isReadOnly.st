@@ -1,3 +1,3 @@
-testing
+accessing
 isReadOnly
-	self subclassResponsibility 
+	^ isReadOnly

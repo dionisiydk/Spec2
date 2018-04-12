@@ -8,9 +8,8 @@
 	"instvars" : [
 		"object",
 		"aspect",
-		"defaultParametersAreSet",
-		"isReadOnly"
+		"defaultParametersAreSet"
 	],
-	"name" : "SpObjectPropertyAspectBuilder",
+	"name" : "SpValueAspectBuilder",
 	"type" : "normal"
 }

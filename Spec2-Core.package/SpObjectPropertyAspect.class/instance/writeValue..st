@@ -1,3 +1,3 @@
 operations
 writeValue: newValue
-	^valueSetter writeAspectValue: newValue to: object
+	^self valueSetter writeAspectValue: newValue to: object

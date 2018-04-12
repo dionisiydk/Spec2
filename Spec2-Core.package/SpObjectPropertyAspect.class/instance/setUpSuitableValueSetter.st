@@ -1,4 +1,0 @@
-initialization
-setUpSuitableValueSetter
-
-	valueSetter := valueGetter asAspectValueSetterOrNil
