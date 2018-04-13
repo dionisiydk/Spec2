@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCompositePresenter",
+	"category" : "Spec2-Core-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"x",
+		"y"
+	],
+	"name" : "SpPointPresenterExample",
+	"type" : "normal"
+}
