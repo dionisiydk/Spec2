@@ -6,3 +6,4 @@ detachFromModel
 	Composite presenters do not subscribe to the model by default
 	and therefore they do not need to unsubscribe.
 	Simple presenters implement actual logic how to detach from the model"
+	self detachChildrenFromModel

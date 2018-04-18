@@ -10,5 +10,6 @@ testBuildingChildPresenter
 	
 	self assert: child view class equals: SpLabelViewStub.
 	self assert: child view name equals: #defaultLabel.
+	self assert: child ui equals: ui.
 	self assert: child parent equals: presenter.
-	self assert: child ui equals: ui
+	self assert: (presenter children includes: child).

@@ -10,4 +10,6 @@ testBuildingChildPresenterTwice
 	childView := child view.	
 	presenter buildChild: child.
 	
-	self assert: child view == childView
+	self assert: child view == childView.
+	self assert: (presenter children includes: child).
+	self assert: presenter children size equals: 1
