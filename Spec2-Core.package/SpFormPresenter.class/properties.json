@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
 	"super" : "SpCompositePresenter",
-	"category" : "Spec2-Core-Tests-Examples",
+	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"x",
-		"y"
+		"fields"
 	],
-	"name" : "SpPointPresenterExample",
+	"name" : "SpFormPresenter",
 	"type" : "normal"
 }
