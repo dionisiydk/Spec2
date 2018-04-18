@@ -3,4 +3,5 @@ field: aBlockProducedAspect
 
 	| newField |
 	newField := SpValuePresenter on: aBlockProducedAspect value.
-	fields add: newField
+	fields add: newField.
+	^newField
