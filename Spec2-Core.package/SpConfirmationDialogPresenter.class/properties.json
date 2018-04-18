@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCompositePresenter",
+	"category" : "Spec2-Core-Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"toolbar"
+	],
+	"name" : "SpConfirmationDialogPresenter",
+	"type" : "normal"
+}
