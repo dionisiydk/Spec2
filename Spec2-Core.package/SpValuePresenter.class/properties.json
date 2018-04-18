@@ -9,6 +9,6 @@
 		"valuePresenter",
 		"namePresenter"
 	],
-	"name" : "SpValueAspectPresenter",
+	"name" : "SpValuePresenter",
 	"type" : "normal"
 }

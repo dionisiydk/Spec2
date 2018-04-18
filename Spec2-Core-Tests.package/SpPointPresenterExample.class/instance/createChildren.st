@@ -1,5 +1,5 @@
 initialization
 createChildren
 	
-	x := SpValueAspectPresenter on: model aspect x useSlot.
-	y := SpValueAspectPresenter on: model aspect y useSlot.
+	x := SpValuePresenter on: model aspect x useSlot.
+	y := SpValuePresenter on: model aspect y useSlot.

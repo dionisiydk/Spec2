@@ -7,6 +7,6 @@ testCreationOnInvalidModelShouldForceInvalidStyle
 		asValueHolder.
 	self deny: model isValid.
 	
-	presenter := SpValueAspectPresenter on: model.
+	presenter := SpValuePresenter on: model.
 	
 	self assert: presenter currentStyle equals: #invalid
