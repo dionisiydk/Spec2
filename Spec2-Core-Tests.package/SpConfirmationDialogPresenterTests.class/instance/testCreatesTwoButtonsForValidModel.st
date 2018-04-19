@@ -1,5 +1,5 @@
 tests
-testHasTwoButtonsForValidModel
+testCreatesTwoButtonsForValidModel
 
 	self assert: presenter model showsValidData.
 

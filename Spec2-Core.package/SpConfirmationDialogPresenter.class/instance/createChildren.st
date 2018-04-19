@@ -4,4 +4,5 @@ createChildren
 	For standard ok/cancel buttons I use toolbar presenter 
 	which will collect these commands for my context"
 
+	title := SpLabelPresenter textual: 'Please confirm:' withStyle: #windowTitle.
 	toolbar := SpToolbarPresenter new
