@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "CmdCommand",
+	"category" : "Spec2-Core-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpCommandExample2",
+	"type" : "normal"
+}

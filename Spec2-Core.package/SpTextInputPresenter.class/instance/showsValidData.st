@@ -1,0 +1,4 @@
+testing
+showsValidData
+	
+	^model isValid

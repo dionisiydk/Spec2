@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpDialogCommand",
+	"category" : "Spec2-Core-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpSubmitDialogCommand",
+	"type" : "normal"
+}

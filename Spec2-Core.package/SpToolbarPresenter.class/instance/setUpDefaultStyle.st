@@ -4,4 +4,9 @@ setUpDefaultStyle
 	
 	| menu |
 	menu := SpToolbarActivation buildMenuInContext: parent createCommandContext.
-	menu buildSpecToolbar: self
+	
+	ui layout: self with: [ :layout | 
+		layout beFlow horizontal.
+		
+		menu buildSpecToolbar: layout
+	]
