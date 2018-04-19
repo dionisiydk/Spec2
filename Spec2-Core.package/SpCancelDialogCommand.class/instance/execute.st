@@ -1,4 +1,3 @@
 execution
 execute
-	
 	dialog cancel
