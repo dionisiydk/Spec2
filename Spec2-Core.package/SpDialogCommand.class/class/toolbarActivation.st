@@ -2,4 +2,4 @@ activation
 toolbarActivation
 	<classAnnotation>
 	
-	^SpToolbarActivation for: SpConfirmationDialogPresenter
+	^SpToolbarActivation byRootGroupItemOrder: self menuOrder for: SpConfirmationDialogPresenter
