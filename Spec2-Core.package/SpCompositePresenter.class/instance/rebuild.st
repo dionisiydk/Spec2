@@ -1,6 +1,6 @@
 controlling
-applyStyle: newStyle
+rebuild
 	self detachChildrenFromModel.
 	children removeAll.
 	
-	super applyStyle: newStyle
+	super rebuild
