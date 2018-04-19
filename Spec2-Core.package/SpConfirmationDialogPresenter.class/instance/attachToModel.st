@@ -6,4 +6,4 @@ attachToModel
 	It leads to the behaviour when ok button became disabled when data on form is invalid"
 	super attachToModel.
 	
-	model 
+	self whenModelChangedDo: [ toolbar rebuild ]

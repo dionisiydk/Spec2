@@ -1,0 +1,3 @@
+running
+createPresenter
+	^SpMultiLabelPresenterExample new

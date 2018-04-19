@@ -11,7 +11,8 @@
 		"view",
 		"parent",
 		"mainStyle",
-		"currentStyle"
+		"currentStyle",
+		"announcer"
 	],
 	"name" : "SpPresenter",
 	"type" : "normal"

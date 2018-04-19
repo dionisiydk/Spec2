@@ -1,0 +1,3 @@
+running
+createPresenter
+	^SpConfirmationDialogPresenter on: SpMultiLabelPresenterExample new
