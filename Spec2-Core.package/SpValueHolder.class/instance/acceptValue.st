@@ -1,4 +1,4 @@
 controlling
-submitValue
+acceptValue
 
 	aspect writeValue: value

@@ -1,5 +1,5 @@
 tests
-testSettingNewValue
+testHasUnacceptedValueWhenItIsDifferentThanInAspect
 
 	| point holder |
 	point := 2@3.
@@ -7,6 +7,5 @@ testSettingNewValue
 	
 	holder value: 10.
 	
-	self assert: holder value equals: 10.
-	self assert: point x equals: 2.
+	self assert: holder hasUnacceptedValue
 	

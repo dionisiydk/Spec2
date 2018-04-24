@@ -2,5 +2,5 @@ accessing
 rawValue: aValue
 	super rawValue: aValue.
 	
-	(aspect isValueValid: aValue)
-		ifTrue: [ self submitValue]
+	(aspect allowsAutoAcceptValues and: [aspect isValueValid: aValue])
+		ifTrue: [ self acceptValue]
