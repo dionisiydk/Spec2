@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPragmaBasedUI",
+	"super" : "SpCompositeViewStub",
 	"category" : "Spec2-Core-Tests-StubUI",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"simulationAnnouncer",
-		"modalRequestSemaphore"
-	],
-	"name" : "SpStubUI",
+	"instvars" : [ ],
+	"name" : "SpModalViewStub",
 	"type" : "normal"
 }

@@ -9,7 +9,8 @@
 		"toolbar",
 		"title",
 		"resultOptions",
-		"result"
+		"result",
+		"applyingResultBlock"
 	],
 	"name" : "SpDialogPresenter",
 	"type" : "normal"

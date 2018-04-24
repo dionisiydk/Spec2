@@ -1,0 +1,3 @@
+controlling
+close
+	ui simulateModalClose
