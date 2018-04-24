@@ -5,9 +5,9 @@ testDoesNotCreateSubmitCommandForInvalidModel
 	self deny: invalidValue isValid.
 	field := SpValuePresenter on: invalidValue.
 	
-	presenter := SpConfirmationDialogPresenter on: field.
+	presenter := SpDialogPresenter on: field.
+	presenter useResultOf: [ #test ] for: SpSubmitDialogCommand.
 	presenter buildIn: ui.
 	
 	self deny: presenter showsValidData.
-	self assert: presenter toolbar children size equals: 1.
-	self assert: presenter toolbar children anyOne model name equals: 'Cancel'
+	self assert: presenter toolbar children isEmpty

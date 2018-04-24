@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpConfirmationDialogPresenterTests",
+	"name" : "SpDialogPresenterTests",
 	"type" : "normal"
 }

@@ -1,0 +1,3 @@
+controlling
+updateToolbar
+	toolbar rebuild

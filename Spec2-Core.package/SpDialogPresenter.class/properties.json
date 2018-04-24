@@ -7,8 +7,10 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"toolbar",
-		"title"
+		"title",
+		"resultOptions",
+		"result"
 	],
-	"name" : "SpConfirmationDialogPresenter",
+	"name" : "SpDialogPresenter",
 	"type" : "normal"
 }
