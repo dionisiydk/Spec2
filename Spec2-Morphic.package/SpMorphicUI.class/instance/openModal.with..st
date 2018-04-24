@@ -3,6 +3,9 @@ openModal: aPresenter with: anInitBlock
 
 	| modalContainer |
 	modalContainer := SpModalMorph new.	
+	aPresenter view 
+		hResizing: #spaceFill;
+		vResizing: #spaceFill.
 	modalContainer addMorphBack: aPresenter view.
 	anInitBlock value: modalContainer.
 	
