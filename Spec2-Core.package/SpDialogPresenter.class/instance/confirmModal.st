@@ -1,6 +1,7 @@
 controlling
 confirmModal
 
+	self build.
 	ui openModal: self with: [:modalView | 
 		applyingResultBlock := [ modalView close ]].
 	
