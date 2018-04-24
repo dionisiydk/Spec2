@@ -1,9 +1,10 @@
 tests
 testApplyingResult
-
-	presenter useResultOf: [#cancelResult] for: SpCancelDialogCommand.
-	presenter useResultOf: [#submitResult] for: SpSubmitDialogCommand.
+	| done result |
+	done := false.
+	result := SpOkDialogResult with: [ done := true ].
 	
-	presenter applyResultOf: SpSubmitDialogCommand.
+	presenter applyResult: result.
 	
-	self assert: presenter result equals: #submitResult
+	self assert: presenter result equals: result.
+	self assert: done

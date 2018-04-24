@@ -1,3 +1,3 @@
 execution
 execute
-	dialog applyResultOf: self class
+	dialog applyResult: result

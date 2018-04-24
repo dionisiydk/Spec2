@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "CmdCommand",
+	"super" : "Object",
 	"category" : "Spec2-Core-Commands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"dialog",
-		"result"
+		"applyingBlock"
 	],
-	"name" : "SpDialogCommand",
+	"name" : "SpDialogResult",
 	"type" : "normal"
 }

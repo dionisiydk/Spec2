@@ -6,7 +6,7 @@ testDoesNotCreateSubmitCommandForInvalidModel
 	field := SpValuePresenter on: invalidValue.
 	
 	presenter := SpDialogPresenter on: field.
-	presenter useResultOf: [ #test ] for: SpSubmitDialogCommand.
+	presenter useResult: SpOkDialogResult for: SpSubmitDialogCommand.
 	presenter buildIn: ui.
 	
 	self deny: presenter showsValidData.

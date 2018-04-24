@@ -1,4 +1,4 @@
 accessing
-resultBlockFor: aDialogCommandClass
+resultOptionFor: aDialogCommandClass
 
 	^resultOptions at: aDialogCommandClass

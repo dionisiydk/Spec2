@@ -1,4 +1,0 @@
-execution
-execute
-	
-	dialog submit

@@ -1,0 +1,4 @@
+applying
+apply
+
+	applyingBlock value
