@@ -7,6 +7,7 @@ setUpCheckboxStyle
 	
 	iconName := model value ifTrue: [ #checkboxSelected ] ifFalse: [ #checkboxUnselected ].
 	ui layout: self with: [ :layout | 
+		layout beFlow horizontal.
 		layout add: (SpLabelPresenter iconic: iconName) with: [ :c | 
 			c horizontal fitContent.
 			c vertical fitContent ]
