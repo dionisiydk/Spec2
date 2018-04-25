@@ -1,3 +1,3 @@
 running
 createPresenter
-	^SpCommandPresenter buttonOn: [ commandWasExecuted := true ] named: 'test button'
+	^SpCommandPresenter buttonOn: model

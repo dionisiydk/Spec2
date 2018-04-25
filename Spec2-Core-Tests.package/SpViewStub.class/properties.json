@@ -10,7 +10,8 @@
 		"name",
 		"contents",
 		"color",
-		"backgroundColor"
+		"backgroundColor",
+		"simulationAnnouncer"
 	],
 	"name" : "SpViewStub",
 	"type" : "normal"

@@ -1,2 +1,2 @@
-as yet unclassified
+style API
 borderColor: aColor 

@@ -1,0 +1,3 @@
+running
+defaultModel
+	self subclassResponsibility 

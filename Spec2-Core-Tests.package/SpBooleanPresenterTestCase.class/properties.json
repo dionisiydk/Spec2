@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "TestCase",
+	"super" : "SpPresenterTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"ui",
-		"presenter",
-		"model"
-	],
-	"name" : "SpPresenterTestCase",
+	"instvars" : [ ],
+	"name" : "SpBooleanPresenterTestCase",
 	"type" : "normal"
 }

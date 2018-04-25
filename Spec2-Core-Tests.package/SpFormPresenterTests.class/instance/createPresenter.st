@@ -1,3 +1,3 @@
 running
 createPresenter
-	^SpPointFormPresenterExample on: 2@3
+	^SpPointFormPresenterExample on: model
