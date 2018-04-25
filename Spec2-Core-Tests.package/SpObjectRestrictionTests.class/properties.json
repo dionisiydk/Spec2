@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpConcreteValueRestrictionTestCase",
+	"category" : "Spec2-Core-Tests-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpObjectRestrictionTests",
+	"type" : "normal"
+}

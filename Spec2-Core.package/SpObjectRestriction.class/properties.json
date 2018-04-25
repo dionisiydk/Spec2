@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "DenisKudryashov 4/25/2018 14:57",
+	"super" : "SpValueRestriction",
+	"category" : "Spec2-Core-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"baseClass"
+	],
+	"name" : "SpObjectRestriction",
+	"type" : "normal"
+}
