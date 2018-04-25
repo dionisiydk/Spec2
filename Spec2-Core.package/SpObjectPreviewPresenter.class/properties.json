@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCompositePresenter",
+	"category" : "Spec2-Core-Presenters",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"displayPresenter",
+		"detailsPresenter"
+	],
+	"name" : "SpObjectPreviewPresenter",
+	"type" : "normal"
+}
