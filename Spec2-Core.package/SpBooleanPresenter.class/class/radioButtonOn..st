@@ -1,4 +1,5 @@
 instance creation
 radioButtonOn: aValueHolder
 
-	^self on: aValueHolder withStyle: #radioButton
+	^self radioButton 	
+		model: aValueHolder

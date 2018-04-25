@@ -1,5 +1,5 @@
 controlling
 acceptValue
 
-	aspect isReadOnly ifFalse: [ 
+	self isReadOnly ifFalse: [ 
 		aspect writeValue: value ]
