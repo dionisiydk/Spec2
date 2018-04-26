@@ -1,0 +1,3 @@
+accessing
+detailsPresenter
+	^ detailsPresenter

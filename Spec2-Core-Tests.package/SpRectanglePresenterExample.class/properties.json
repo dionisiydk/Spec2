@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpFormPresenter",
+	"category" : "Spec2-Core-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpRectanglePresenterExample",
+	"type" : "normal"
+}

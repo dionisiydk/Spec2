@@ -2,4 +2,4 @@
 setUpDefaultAspectParameters: aValueAspect
 	aValueAspect 
 		stringConverter: SpObjectToStringConverter default;
-		inputPresenter: SpTextInputPresenter new
+		inputPresenter: SpObjectPreviewPresenter new

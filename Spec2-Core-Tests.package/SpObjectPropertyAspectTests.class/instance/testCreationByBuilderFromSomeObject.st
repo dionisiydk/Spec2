@@ -8,6 +8,4 @@ testCreationByBuilderFromSomeObject
 	self assert: aspect restriction equals: SpAnyValueRestriction default.
 	self assert: aspect stringConverter equals: SpObjectToStringConverter default.	
 	self assert: aspect displayDecoration equals: SpNoTextDecoration default.
-	self assert: aspect inputPresenter class equals: SpTextInputPresenter.
-	self assert: aspect inputPresenter inputRestriction equals: SpAnyTextRestriction default.
-	self assert: aspect inputPresenter textDecoration equals: SpNoTextDecoration default.
+	self assert: aspect inputPresenter class equals: SpObjectPreviewPresenter
