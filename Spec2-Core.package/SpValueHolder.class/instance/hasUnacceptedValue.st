@@ -1,4 +1,4 @@
 testing
 hasUnacceptedValue
 
-	^aspect readValue ~= value
+	^valueAspect readValue ~= value

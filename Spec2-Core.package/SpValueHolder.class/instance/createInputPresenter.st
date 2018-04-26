@@ -1,3 +1,3 @@
 accessing
 createInputPresenter
-	^aspect createInputPresenterFor: self
+	^valueAspect createInputPresenterFor: self

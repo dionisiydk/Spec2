@@ -1,3 +1,3 @@
 testing
 isReadOnly
-	^aspect isReadOnly
+	^valueAspect isReadOnly

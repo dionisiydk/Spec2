@@ -2,7 +2,7 @@ tests
 testDoNotReactOnMouseClicksWhenModelIsReadOnly
 
 	| currentValue |
-	model aspect readOnly.
+	model valueAspect readOnly.
 	presenter rebuild.
 	currentValue := model value.
 	

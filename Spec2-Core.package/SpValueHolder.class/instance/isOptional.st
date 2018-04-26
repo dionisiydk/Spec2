@@ -1,3 +1,3 @@
 testing
 isOptional
-	^aspect isOptional
+	^valueAspect isOptional

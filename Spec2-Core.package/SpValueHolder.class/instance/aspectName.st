@@ -1,3 +1,3 @@
 accessing
 aspectName
-	^aspect name
+	^valueAspect name

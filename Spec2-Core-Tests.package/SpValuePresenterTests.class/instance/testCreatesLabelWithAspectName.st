@@ -2,7 +2,7 @@ tests
 testCreatesLabelWithAspectName
 		
 	| aspect labelContainer |
-	aspect := presenter model aspect.
+	aspect := presenter model valueAspect.
 	
 	labelContainer := presenter view contents first.
 	self assert: labelContainer class equals: SpCompositeViewStub.

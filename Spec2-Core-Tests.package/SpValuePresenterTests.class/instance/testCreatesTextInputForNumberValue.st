@@ -2,7 +2,7 @@ tests
 testCreatesTextInputForNumberValue
 		
 	| aspect textInputView |
-	aspect := presenter model aspect.
+	aspect := presenter model valueAspect.
 	textInputView := presenter view contents detect: [ :each | each class = SpTextInputViewStub].
 	self assert: textInputView contents equals: aspect readValue asString.
 	self 

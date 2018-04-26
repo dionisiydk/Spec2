@@ -1,3 +1,3 @@
 accessing
 aspect
-	^ aspect
+	self shouldBeImplemented 

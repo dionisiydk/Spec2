@@ -8,5 +8,5 @@ testCreationValueHolderFromBuilder
 	actual := aspectBuilder asValueHolder.
 	
 	self assert: actual class equals: SpValueHolder.
-	self assert: actual aspect equals: aspectBuilder build.
+	self assert: actual valueAspect equals: aspectBuilder build.
 	self assert: actual value equals: 2

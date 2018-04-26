@@ -7,6 +7,6 @@ testIsReadOnly
 	
 	self deny: holder isReadOnly.
 	
-	holder aspect readOnly.
+	holder valueAspect readOnly.
 	self assert: holder isReadOnly. 
 	

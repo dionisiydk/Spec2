@@ -1,4 +1,4 @@
 testing
 isValid
 
-	^aspect isValueValid: value
+	^valueAspect isValueValid: value

@@ -6,5 +6,5 @@ testIsOptionalCheck
 	
 	self deny: holder isOptional.
 	
-	holder aspect optional.
+	holder valueAspect optional.
 	self assert: holder isOptional.
