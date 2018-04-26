@@ -6,6 +6,6 @@ testBuildingDerivedAspectFromValue
 
 	newAspect := holder aspect x build.
 	
-	self assert: newAspect class equals: SpDerivedValueAspect.	
-	self assert: newAspect baseValueHolder equals: holder.
+	self assert: newAspect class equals: SpObjectPropertyAspect.	
+	self assert: newAspect object equals: 2@3.
 	self assert: newAspect value equals: 2
