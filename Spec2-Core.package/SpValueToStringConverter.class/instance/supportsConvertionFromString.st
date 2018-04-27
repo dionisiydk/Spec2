@@ -1,0 +1,3 @@
+testing
+supportsConvertionFromString
+	^true

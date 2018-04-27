@@ -10,7 +10,8 @@
 		"inputRestriction",
 		"changesSubscriber",
 		"handlerSelector",
-		"updateCount"
+		"updateCount",
+		"isReadOnly"
 	],
 	"name" : "SpTextInputViewStub",
 	"type" : "normal"
