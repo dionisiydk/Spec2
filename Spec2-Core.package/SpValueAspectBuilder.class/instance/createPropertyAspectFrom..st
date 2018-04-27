@@ -1,5 +1,5 @@
 building
 createPropertyAspectFrom: aPropertyGetterObject
 
-	aspect := SpObjectPropertyAspect of: object getter: aPropertyGetterObject.
+	aspect := object createPropertyAspectFrom: aPropertyGetterObject.
 	aspect name: aPropertyGetterObject printAspectValueName

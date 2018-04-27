@@ -1,3 +1,0 @@
-accessing
-aspect
-	self shouldBeImplemented 
