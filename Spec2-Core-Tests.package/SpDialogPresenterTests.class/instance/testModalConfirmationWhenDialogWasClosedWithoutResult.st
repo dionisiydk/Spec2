@@ -2,7 +2,7 @@ tests
 testModalConfirmationWhenDialogWasClosedWithoutResult
 	| started result modalProcess |
 	started := false.
-	modalProcess := [started := true. result := presenter confirmModal] fork.
+	modalProcess := [started := true. result := presenter confirmModalFrom: #view] fork.
 	[ started ] whileFalse: [ Processor yield ].
 	self assert: result isNil.
 	

@@ -1,0 +1,4 @@
+controlling
+fullRebuild
+
+	self rebuild

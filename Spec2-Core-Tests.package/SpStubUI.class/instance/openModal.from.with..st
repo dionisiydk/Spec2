@@ -1,5 +1,5 @@
 opening
-openModal: aPresenter with: anInitBlock
+openModal: aPresenter from: aView with: anInitBlock
 
 	| modalContainer |
 	modalContainer := SpModalViewStub of: self.	
