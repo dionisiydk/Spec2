@@ -1,5 +1,5 @@
 controlling
 fullRebuild
-	super fullRebuild.
+	children do: [ :each | each fullRebuild ].
 	
-	children do: [ :each | each fullRebuild ]
+	super fullRebuild
