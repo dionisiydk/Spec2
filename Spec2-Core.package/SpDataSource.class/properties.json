@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Spec2-Core-Data",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dataModel",
+		"parentItem",
+		"depth",
+		"expandedItems",
+		"dirty"
+	],
+	"name" : "SpDataSource",
+	"type" : "normal"
+}
