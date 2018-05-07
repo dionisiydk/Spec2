@@ -6,14 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"actualItem",
-		"index",
-		"priority",
-		"depth",
-		"children",
-		"properties"
+		"items",
+		"rootDataHolder"
 	],
-	"name" : "SpDataItem",
+	"name" : "SpDataHolderSelection",
 	"type" : "normal"
 }

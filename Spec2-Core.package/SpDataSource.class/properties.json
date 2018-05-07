@@ -5,13 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"dataModel",
-		"parentItem",
-		"depth",
-		"expandedItems",
-		"dirty"
-	],
+	"instvars" : [ ],
 	"name" : "SpDataSource",
 	"type" : "normal"
 }

@@ -6,9 +6,12 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"items",
-		"listModel"
+		"dataSource",
+		"parentItem",
+		"depth",
+		"expandedItems",
+		"dirty"
 	],
-	"name" : "SpDataSourceSelection",
+	"name" : "SpDataHolder",
 	"type" : "normal"
 }

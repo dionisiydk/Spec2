@@ -6,10 +6,10 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ownerDataSource",
-		"childrenDataSource",
-		"dataItem"
+		"ownerDataHolder",
+		"childrenDataHolder",
+		"dataSourceItem"
 	],
-	"name" : "SpDataSourceItem",
+	"name" : "SpDataHolderItem",
 	"type" : "normal"
 }

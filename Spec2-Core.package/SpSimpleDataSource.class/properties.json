@@ -1,19 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpDataSource",
 	"category" : "Spec2-Core-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"name",
-		"actualItem",
-		"index",
-		"priority",
-		"depth",
-		"children",
-		"properties"
+		"items"
 	],
-	"name" : "SpDataItem",
+	"name" : "SpSimpleDataSource",
 	"type" : "normal"
 }
