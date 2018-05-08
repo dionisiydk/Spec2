@@ -2,5 +2,5 @@ initialization
 initialize
 	super initialize.
 	
-	columns := { SpMainDatasetColumn of: self }.
+	columns := { SpItemNameColumn of: self }.
 	selections := OrderedCollection new.

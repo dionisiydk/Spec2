@@ -3,4 +3,4 @@ cellColumn: column row: rowIndex
 
 	| item |
 	item := self elementAt: rowIndex.
-	^column createCellFor: item
+	^(column buildCellFor: item) view

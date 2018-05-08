@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpMainDatasetColumn",
+	"name" : "SpItemNameColumn",
 	"type" : "normal"
 }

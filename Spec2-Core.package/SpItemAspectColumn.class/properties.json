@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"cellModelBlock"
+		"aspectId"
 	],
-	"name" : "SpSecondaryDatasetColumn",
+	"name" : "SpItemAspectColumn",
 	"type" : "normal"
 }
