@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Spec2-Core-Dataset",
+	"super" : "FTTableMorph",
+	"category" : "Spec2-Morphic-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpDataSource",
+	"name" : "SpDatasetMorph",
 	"type" : "normal"
 }

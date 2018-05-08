@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Spec2-Core-Dataset",
+	"super" : "SpPresenterTestCase",
+	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpDataSource",
+	"name" : "SpDatasetPresenterTests",
 	"type" : "normal"
 }

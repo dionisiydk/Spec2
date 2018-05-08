@@ -3,4 +3,4 @@ setUpDefaultMorphicView
 	<viewSpec>
 	<forMorphic>
 	
-	view := FTTableMorph new
+	view := SpDatasetMorph new

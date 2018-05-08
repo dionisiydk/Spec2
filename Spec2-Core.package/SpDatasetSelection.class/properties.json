@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "Spec2-Core-Data",
+	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
