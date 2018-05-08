@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpSimplePresenter",
+	"super" : "Object",
 	"category" : "Spec2-Core-Data",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"selections"
+		"items",
+		"rootDataset"
 	],
-	"name" : "SpDataPresenter",
+	"name" : "SpDatasetSelection",
 	"type" : "normal"
 }
