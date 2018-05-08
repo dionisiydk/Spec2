@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpDatasetColumn",
 	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpDefaultDatasetColumn",
+	"name" : "SpMainDatasetColumn",
 	"type" : "normal"
 }
