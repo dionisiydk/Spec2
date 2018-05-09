@@ -1,3 +1,6 @@
 building cells
 buildCellFor: aDataItem
-	self subclassResponsibility 
+	| cell |
+	cell := self createCellPresenterFor: aDataItem.
+	datasetPresenter buildChild: cell.
+	^cell

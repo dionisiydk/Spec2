@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpViewStub",
+	"category" : "Spec2-Core-Tests-StubUI",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"columns",
+		"dataset"
+	],
+	"name" : "SpDatasetViewStub",
+	"type" : "normal"
+}

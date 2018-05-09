@@ -1,5 +1,6 @@
 initialization
 attachToView
 	
-	view dataset: model.
+	view columns: columns.
+	view dataset: model.	
 	selections do: [ :each | each attachToView: view ]

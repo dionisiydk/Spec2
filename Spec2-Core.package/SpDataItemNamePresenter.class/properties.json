@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpCompositePresenter",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"itemNamePresenter"
+	],
+	"name" : "SpDataItemNamePresenter",
+	"type" : "normal"
+}
