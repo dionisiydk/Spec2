@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpSimplePresenter",
+	"super" : "SpCompositePresenter",
 	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
