@@ -1,3 +1,5 @@
 accessing
 headerColumn: column
-	^column buildHeader view
+	^column wantsVisibleHeader 
+		ifTrue: [ column buildHeader view]
+		ifFalse: [ nil ]

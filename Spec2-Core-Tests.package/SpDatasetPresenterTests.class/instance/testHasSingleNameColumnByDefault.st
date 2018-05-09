@@ -1,5 +1,5 @@
 tests
-testHasSingleDefaultColumnByDefault
+testHasSingleNameColumnByDefault
 
 	self assert: presenter columns size equals: 1.
 	self assert: presenter columns first class equals: SpItemNameColumn.
