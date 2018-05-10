@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpDatasetSelection",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"isSingle"
+	],
+	"name" : "SpManualSelection",
+	"type" : "normal"
+}
