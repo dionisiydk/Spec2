@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"isSingle"
-	],
+	"instvars" : [ ],
 	"name" : "SpManualSelection",
 	"type" : "normal"
 }

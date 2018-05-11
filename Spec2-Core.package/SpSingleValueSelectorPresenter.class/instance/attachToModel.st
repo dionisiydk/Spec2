@@ -2,4 +2,4 @@ initialization
 attachToModel
 	super attachToModel.
 	
-	optionSelection attachToSingleValueModel: model
+	optionSelection attachToActualModel: model

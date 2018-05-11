@@ -2,4 +2,4 @@ initialization
 detachFromModel
 	super detachFromModel.
 	
-	optionSelection detachFromModel: model
+	optionSelection detachFromActualModel: model
