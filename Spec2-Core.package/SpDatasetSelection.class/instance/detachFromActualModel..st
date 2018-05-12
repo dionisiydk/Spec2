@@ -1,4 +1,4 @@
-actual model syncronization
+attached model
 detachFromActualModel: aValueHolder
 
 	announcer unsubscribe: aValueHolder.		

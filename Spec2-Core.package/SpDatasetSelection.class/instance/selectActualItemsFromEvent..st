@@ -1,14 +1,11 @@
-actual model syncronization
+attached model
 selectActualItemsFromEvent: aValueChanged
 	"We expect single value change when selection is single.
 	And we expect list value change when selection is multiple. 
 	In last case aValueChanged newValue should be collection"
-	| newActualItems newItems event |
+	| newActualItems |
 	newActualItems := isSingle 
 		ifTrue: [ {aValueChanged newValue} ]
 		ifFalse: [ aValueChanged newValue ].
 		
-	newItems := rootDataset itemsWith: newActualItems.
-	event := ValueChanged oldValue: items newValue: newItems.
-	items := newItems.
-	announcer announce: event
+	self selectItemsWith: newActualItems
