@@ -1,0 +1,3 @@
+controlling
+beMultiple
+	isSingle := false

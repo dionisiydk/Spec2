@@ -1,0 +1,3 @@
+initialization
+beSingle
+	isSingle := true
