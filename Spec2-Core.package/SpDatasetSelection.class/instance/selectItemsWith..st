@@ -1,6 +1,7 @@
 controlling
 selectItemsWith: actualItems 
-	| oldItems |
+	| oldItems newItems |
 	oldItems := items.
-	items := rootDataset itemsWith: actualItems.
+	newItems := rootDataset itemsWith: actualItems.
+	items := newItems reject: [ :each | each isNil ]. "missing items are returned as nil in their position"
 	announcer announce: (ValueChanged oldValue: oldItems newValue: items)
