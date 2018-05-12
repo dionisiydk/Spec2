@@ -1,3 +1,3 @@
-accessing
+queries
 itemAt: globalIndex
 	^dataSource itemAt: globalIndex

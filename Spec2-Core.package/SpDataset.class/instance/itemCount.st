@@ -1,3 +1,3 @@
-accessing
+queries
 itemCount
 	^dataSource itemCount
