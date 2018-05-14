@@ -1,0 +1,3 @@
+converting
+asSpecDataset
+	^self

@@ -1,6 +1,6 @@
 controlling
 selectItemsWith: actualItems 
-	| oldItems |
-	oldItems := items.
-	items := rootDataset itemsWith: actualItems.
-	announcer announce: (ValueChanged oldValue: oldItems newValue: items)
+	
+	| newItems |
+	newItems := rootDataset itemsWith: actualItems.
+	self setNewItems: newItems
