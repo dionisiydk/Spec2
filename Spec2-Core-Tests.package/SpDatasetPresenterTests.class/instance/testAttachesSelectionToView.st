@@ -6,4 +6,4 @@ testAttachesSelectionToView
 	presenter addSelection: selection.
 	presenter rebuild.
 
-	self assert: selection presenter showsColumnHeader 
+	self assert: presenter view manualSelection equals: selection 
