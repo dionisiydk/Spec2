@@ -1,3 +1,3 @@
 accessing
 itemAt: index
-	^self createDataItemFrom: (items at: index)
+	^self createDataItemFrom: (actualItems at: index)

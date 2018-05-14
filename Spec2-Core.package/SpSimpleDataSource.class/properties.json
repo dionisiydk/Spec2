@@ -6,7 +6,7 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"items"
+		"actualItems"
 	],
 	"name" : "SpSimpleDataSource",
 	"type" : "normal"
