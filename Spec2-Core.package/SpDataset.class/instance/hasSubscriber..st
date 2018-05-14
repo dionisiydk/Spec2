@@ -1,0 +1,3 @@
+testing
+hasSubscriber: aSubscriber 
+	^false

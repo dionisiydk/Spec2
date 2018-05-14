@@ -1,2 +1,2 @@
 event subscription
-whenChangedSend: aSymbol to: aReceiver 
+whenChangedSend: aSymbol to: aSubscriber 

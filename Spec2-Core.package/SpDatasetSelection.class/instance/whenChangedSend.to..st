@@ -1,3 +1,3 @@
 event subscription
-whenChangedSend: aSymbol to: aReceiver
-	announcer when: ValueChanged send: aSymbol to: aReceiver
+whenChangedSend: aSymbol to: aSubscriber
+	announcer when: ValueChanged send: aSymbol to: aSubscriber

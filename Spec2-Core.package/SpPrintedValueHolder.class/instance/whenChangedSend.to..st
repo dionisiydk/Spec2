@@ -1,5 +1,5 @@
 subscription
-whenChangedSend: aSelector to: aReceiver
-	super whenChangedSend: aSelector to: aReceiver.
+whenChangedSend: aSelector to: aSubscriber
+	super whenChangedSend: aSelector to: aSubscriber.
 	
 	self ensureBaseValueSubscription	
