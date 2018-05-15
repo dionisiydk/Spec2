@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"selectorPresenter",
+		"optionsDataset",
+		"valuePresenter"
+	],
 	"name" : "SpComboBoxPresenter",
 	"type" : "normal"
 }

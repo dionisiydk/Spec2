@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
+		"optionSelection",
 		"optionsDataset",
-		"optionsPresenter",
-		"optionSelection"
+		"optionsPresenter"
 	],
 	"name" : "SpSingleValueSelectorPresenter",
 	"type" : "normal"
