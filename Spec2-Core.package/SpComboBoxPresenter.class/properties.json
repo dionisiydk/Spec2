@@ -6,9 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"selectorPresenter",
 		"optionsDataset",
-		"valuePresenter"
+		"valuePresenter",
+		"optionsButton"
 	],
 	"name" : "SpComboBoxPresenter",
 	"type" : "normal"
