@@ -10,4 +10,6 @@ setUpDefaultStyle
 		layout add: optionsButton with: [ :c | 
 			c horizontal fitContent.
 			c vertical fitContent ]
-	]
+	].
+
+	ui when: SpMouseDown on: valuePresenter view do: [ self popUpOptions ].
