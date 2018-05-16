@@ -1,3 +1,3 @@
-initialize
+initialization
 defaultBorderWidth
 	^0

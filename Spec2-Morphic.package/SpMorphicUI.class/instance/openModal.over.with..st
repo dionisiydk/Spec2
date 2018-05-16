@@ -1,5 +1,5 @@
 opening
-openModal: aPresenter from: aView with: anInitBlock
+openModal: aPresenter over: parentMorph with: anInitBlock
 
 	| modalContainer |
 	modalContainer := SpModalMorph new.	
@@ -9,5 +9,4 @@ openModal: aPresenter from: aView with: anInitBlock
 	modalContainer addMorphBack: aPresenter view.
 	anInitBlock value: modalContainer.
 	
-	"Instead of World it should be morphic #modalMorph"
-	aView openModal: modalContainer
+	parentMorph openModal: modalContainer

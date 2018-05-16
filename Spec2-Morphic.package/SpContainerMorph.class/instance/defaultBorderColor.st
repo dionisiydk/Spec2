@@ -1,3 +1,3 @@
-initialize
+initialization
 defaultBorderColor
 	^Color transparent

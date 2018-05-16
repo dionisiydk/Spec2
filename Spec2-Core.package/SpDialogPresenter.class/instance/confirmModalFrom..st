@@ -2,7 +2,7 @@ controlling
 confirmModalFrom: aView
 
 	self build.
-	ui openModal: self from: aView with: [:modalView | 
+	ui openModal: self over: aView with: [:modalView | 
 		applyingResultBlock := [ modalView close ]].
 	
 	(result isNil and: [self hasResultFor: SpCancelDialogCommand]) ifTrue: [ 

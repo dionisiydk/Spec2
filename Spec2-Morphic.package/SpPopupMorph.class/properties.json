@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpContainerMorph",
+	"category" : "Spec2-Morphic-Views",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"targetPresenter"
+	],
+	"name" : "SpPopupMorph",
+	"type" : "normal"
+}

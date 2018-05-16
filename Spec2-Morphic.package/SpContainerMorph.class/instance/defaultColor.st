@@ -1,3 +1,3 @@
-initialize
+initialization
 defaultColor
 	^Color transparent
