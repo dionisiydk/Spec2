@@ -1,14 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueInputPresenter",
+	"super" : "SpDatasetColumn",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"optionsDataset",
-		"selectingStrategy"
-	],
-	"name" : "SpValueSelectorPresenter",
+	"instvars" : [ ],
+	"name" : "SpValueSelectorColumn",
 	"type" : "normal"
 }
