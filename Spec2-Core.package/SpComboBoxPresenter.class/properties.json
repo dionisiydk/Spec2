@@ -1,12 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpCompositePresenter",
+	"super" : "SpValueSelectorPresenter",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"optionsDataset",
 		"valuePresenter",
 		"optionsButton"
 	],

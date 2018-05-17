@@ -1,4 +1,4 @@
 initialization
 createChildren
-	optionsPresenter := SpDatasetPresenter on: optionsDataset.
+	super createChildren.
 	optionSelection := optionsPresenter addSelection: SpManualSelection single

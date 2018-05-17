@@ -1,11 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueInputPresenter",
+	"super" : "SpValuePresenter",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpBooleanPresenter",
+	"instvars" : [
+		"valuePresenter",
+		"namePresenter"
+	],
+	"name" : "SpFormFieldPresenter",
 	"type" : "normal"
 }

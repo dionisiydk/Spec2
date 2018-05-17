@@ -3,7 +3,7 @@ testDoesNotCreateSubmitCommandForInvalidModel
 	| invalidValue field |
 	invalidValue := 10 aspect itself restriction: (SpNumberRestriction minValue: 1000); asValueHolder.
 	self deny: invalidValue isValid.
-	field := SpValuePresenter on: invalidValue.
+	field := SpFormFieldPresenter on: invalidValue.
 	
 	presenter := SpDialogPresenter on: field.
 	presenter useResult: SpOkDialogResult for: SpSubmitDialogCommand.

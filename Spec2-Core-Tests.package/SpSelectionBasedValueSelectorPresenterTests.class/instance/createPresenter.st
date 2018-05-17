@@ -1,5 +1,5 @@
 running
 createPresenter
-	^SpSingleValueSelectorPresenter 
+	^SpSelectionBasedValueSelectorPresenter 
 		on: model 
 		options: (SpSimpleDataSource on: #(#value1 #value2 #value3))

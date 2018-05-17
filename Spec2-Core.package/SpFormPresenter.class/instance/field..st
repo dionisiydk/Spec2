@@ -2,6 +2,6 @@ initialization
 field: aBlockProducedAspect
 
 	| newField |
-	newField := SpValuePresenter on: aBlockProducedAspect value.
+	newField := SpFormFieldPresenter on: aBlockProducedAspect value.
 	fields add: newField.
 	^newField

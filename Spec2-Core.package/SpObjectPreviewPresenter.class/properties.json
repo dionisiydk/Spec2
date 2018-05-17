@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpCompositePresenter",
+	"super" : "SpValuePresenter",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],

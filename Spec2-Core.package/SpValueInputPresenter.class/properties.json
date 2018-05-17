@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPresenterTestCase",
-	"category" : "Spec2-Core-Tests-Tests",
+	"super" : "SpValuePresenter",
+	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpValuePresenterTests",
+	"name" : "SpValueInputPresenter",
 	"type" : "normal"
 }

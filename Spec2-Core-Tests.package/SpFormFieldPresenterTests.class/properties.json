@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpSingleValueSelectorPresenterTests",
+	"name" : "SpFormFieldPresenterTests",
 	"type" : "normal"
 }

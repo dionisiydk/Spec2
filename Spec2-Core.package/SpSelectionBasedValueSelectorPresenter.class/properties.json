@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueInputPresenter",
+	"super" : "SpFullListValueSelectorPresenter",
 	"category" : "Spec2-Core-Presenters",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "SpBooleanPresenter",
+	"instvars" : [
+		"optionSelection"
+	],
+	"name" : "SpSelectionBasedValueSelectorPresenter",
 	"type" : "normal"
 }

@@ -7,6 +7,6 @@ testCreationOnInvalidModelShouldForceInvalidStyle
 		asValueHolder.
 	self deny: model isValid.
 	
-	presenter := SpValuePresenter on: model.
+	presenter := SpFormFieldPresenter on: model.
 	
 	self assert: presenter currentStyle equals: #invalid
