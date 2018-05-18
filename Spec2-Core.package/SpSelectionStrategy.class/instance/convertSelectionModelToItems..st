@@ -1,4 +1,4 @@
-as yet unclassified
+items convertion
 convertSelectionModelToItems: anObject
 
 	self subclassResponsibility 
