@@ -1,0 +1,4 @@
+initialization
+modelChanged
+
+	optionPresenter refresh
