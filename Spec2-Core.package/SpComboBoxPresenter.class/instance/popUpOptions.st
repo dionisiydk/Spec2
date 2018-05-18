@@ -3,6 +3,7 @@ popUpOptions
 
 	| selectorPresenter |
 	selectorPresenter := SpSelectionBasedValueSelectorPresenter on: model options: optionDataset.
+	selectorPresenter selectionStrategy: selectionStrategy.
 	selectorPresenter buildIn: ui.
 	
 	ui openInVerticalPopup: selectorPresenter over: view with: [ :popupView |

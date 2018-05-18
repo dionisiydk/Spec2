@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpFullListValueSelectorTestCase",
+	"super" : "SpFullListValueSelectorPresenterTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

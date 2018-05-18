@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpCompboBoxPresenterTests",
+	"name" : "SpFullListValueSelectorPresenterTestCase",
 	"type" : "normal"
 }
