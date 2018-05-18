@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"datasetPresenter"
+		"datasetPresenter",
+		"width"
 	],
 	"name" : "SpDatasetColumn",
 	"type" : "normal"

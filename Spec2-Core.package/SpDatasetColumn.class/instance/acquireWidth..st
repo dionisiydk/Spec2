@@ -1,3 +1,3 @@
-as yet unclassified
-acquireWidth: anInteger 
-	^0
+accessing
+acquireWidth: anOwnerWidth
+	^ self width min: anOwnerWidth

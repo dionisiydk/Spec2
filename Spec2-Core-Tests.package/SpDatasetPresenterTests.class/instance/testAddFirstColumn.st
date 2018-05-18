@@ -7,3 +7,4 @@ testAddFirstColumn
 
 	self assert: presenter columns size equals: 2.
 	self assert: presenter columns first equals: newColumn.
+	self assert: presenter columns first datasetPresenter equals: presenter.
