@@ -1,3 +1,3 @@
 initialization
 beSingle
-	isSingle := true
+	strategy := SpSingleSelectionStrategy new

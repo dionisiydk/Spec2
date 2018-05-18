@@ -1,0 +1,3 @@
+running
+createStrategy
+	^SpSingleSelectionStrategy new

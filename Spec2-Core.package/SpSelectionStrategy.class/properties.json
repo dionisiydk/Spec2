@@ -5,12 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"strategy",
-		"items",
-		"rootDataset",
-		"announcer"
-	],
-	"name" : "SpDatasetSelection",
+	"instvars" : [ ],
+	"name" : "SpSelectionStrategy",
 	"type" : "normal"
 }

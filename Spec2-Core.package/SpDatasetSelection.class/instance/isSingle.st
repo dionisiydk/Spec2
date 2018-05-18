@@ -1,3 +1,3 @@
 accessing
 isSingle
-	^ isSingle
+	^ strategy isSingle

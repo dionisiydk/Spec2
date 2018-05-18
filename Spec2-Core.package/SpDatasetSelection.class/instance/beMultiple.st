@@ -1,3 +1,3 @@
 initialization
 beMultiple
-	isSingle := false
+	strategy := SpMultipleSelectionStrategy new

@@ -1,3 +1,3 @@
 accessing
 selectingStrategy
-	^ selectingStrategy
+	^ selectionStrategy

@@ -4,8 +4,6 @@ synchronizeActualModel: aValueHolder
 	And we expect list value model when selection is multiple"
 	
 	| newValue |
-	newValue := isSingle 
-		ifTrue: [ self isEmpty ifTrue: [nil] ifFalse: [self lastItem actualItem] ]
-		ifFalse: [ self actualItems ].
+	newValue := strategy convertItemsToSelectionModel: self actualItems.
 
 	aValueHolder value: newValue

@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "SpValueInputPresenter",
-	"category" : "Spec2-Core-Presenters",
+	"super" : "TestCase",
+	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"optionsDataset",
 		"selectionStrategy"
 	],
-	"name" : "SpValueSelectorPresenter",
+	"name" : "SpSelectionStrategyTestCase",
 	"type" : "normal"
 }

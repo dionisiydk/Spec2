@@ -1,3 +1,3 @@
 accessing
 selectingStrategy: anObject
-	selectingStrategy := anObject
+	selectionStrategy := anObject

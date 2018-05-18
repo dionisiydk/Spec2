@@ -1,16 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpSelectionStrategy",
 	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"strategy",
-		"items",
-		"rootDataset",
-		"announcer"
-	],
-	"name" : "SpDatasetSelection",
+	"instvars" : [ ],
+	"name" : "SpMultipleSelectionStrategy",
 	"type" : "normal"
 }

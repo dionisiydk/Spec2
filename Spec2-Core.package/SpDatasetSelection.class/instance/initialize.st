@@ -2,6 +2,6 @@ initialization
 initialize
 	super initialize.
 	
+	self beMultiple.
 	items := #().
-	isSingle := false.
 	announcer := Announcer new
