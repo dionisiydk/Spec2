@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"optionsDataset",
-		"selectionStrategy"
+		"selectionStrategy",
+		"optionDataset"
 	],
 	"name" : "SpValueSelectorPresenter",
 	"type" : "normal"

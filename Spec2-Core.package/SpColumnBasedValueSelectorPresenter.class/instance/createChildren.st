@@ -2,4 +2,4 @@ initialization
 createChildren
 	super createChildren.
 	
-	optionsPresenter addFirstColumn: (SpValueSelectorColumn for: model strategy: selectionStrategy)
+	optionPresenter addFirstColumn: (SpValueSelectorColumn for: model strategy: selectionStrategy)

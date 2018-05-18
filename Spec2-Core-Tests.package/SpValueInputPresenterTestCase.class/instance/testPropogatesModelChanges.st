@@ -6,6 +6,6 @@ testPropogatesModelChanges
 	presenter parent: parent.
 	parent whenModelChangedDo: [ executed := true ].
 	
-	presenter model value: 100.
+	presenter model value: self newValueForModel.
 	
 	self assert: executed

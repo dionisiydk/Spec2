@@ -2,4 +2,4 @@ initialization
 attachToModel
 	super attachToModel.
 	
-	model whenChangedSend: #rebuild to: self
+	model whenChangedSend: #modelChanged to: self

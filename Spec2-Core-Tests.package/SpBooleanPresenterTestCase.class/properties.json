@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpPresenterTestCase",
+	"super" : "SpValueInputPresenterTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -7,7 +7,7 @@ setUpDefaultStyle
 		layout add: valuePresenter with: [ :c | 
 			c horizontal matchParent.
 			c vertical fitContent ].
-		layout add: optionsButton with: [ :c | 
+		layout add: optionButton with: [ :c | 
 			c horizontal fitContent.
 			c vertical fitContent ]
 	].

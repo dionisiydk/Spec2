@@ -1,3 +1,3 @@
 initialization
 createChildren
-	optionsPresenter := SpDatasetPresenter on: optionsDataset
+	optionPresenter := SpDatasetPresenter on: optionDataset

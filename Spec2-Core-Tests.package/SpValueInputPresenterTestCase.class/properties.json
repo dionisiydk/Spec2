@@ -1,11 +1,11 @@
 {
 	"commentStamp" : "",
-	"super" : "SpFullListValueSelectorTestCase",
+	"super" : "SpPresenterTestCase",
 	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "SpSelectionBasedValueSelectorPresenterTests",
+	"name" : "SpValueInputPresenterTestCase",
 	"type" : "normal"
 }

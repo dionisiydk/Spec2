@@ -1,4 +1,4 @@
 initialization
 createChildren
 	super createChildren.
-	optionSelection := optionsPresenter addSelection: SpManualSelection single
+	optionSelection := optionPresenter addSelection: SpManualSelection single

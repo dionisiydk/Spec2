@@ -1,0 +1,4 @@
+tests
+testHasSingleSelectionStrategyByDefault
+
+	self assert: presenter selectionStrategy class equals: SpSingleSelectionStrategy 

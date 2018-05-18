@@ -1,5 +1,3 @@
 running
 createPresenter
-	^SpSelectionBasedValueSelectorPresenter 
-		on: model 
-		options: (SpSimpleDataSource on: #(#value1 #value2 #value3))
+	^SpSelectionBasedValueSelectorPresenter on: model options: optionDataset
