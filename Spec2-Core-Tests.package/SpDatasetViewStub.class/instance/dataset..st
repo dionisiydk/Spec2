@@ -1,3 +1,4 @@
 accessing
-dataset: aSpDataset 
-	dataset := aSpDataset
+dataset: aDataset 
+	dataset := aDataset.
+	self refresh

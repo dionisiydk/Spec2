@@ -5,11 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"columns",
-		"dataset",
-		"manualSelection"
-	],
-	"name" : "SpDatasetViewStub",
+	"instvars" : [ ],
+	"name" : "SpDatasetRowStub",
 	"type" : "normal"
 }
