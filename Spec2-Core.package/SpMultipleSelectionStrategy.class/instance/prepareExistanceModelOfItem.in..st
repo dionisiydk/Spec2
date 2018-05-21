@@ -1,5 +1,5 @@
 model creation
-prepareBooleanModelItem: newItem in: aListValueHolder
+prepareExistanceModelOfItem: newItem in: aListValueHolder
 	"Actual model of multiple selection is array.
 	We should return boolean model which gives true 
 	when newItem is contained by given aListValueHolder.

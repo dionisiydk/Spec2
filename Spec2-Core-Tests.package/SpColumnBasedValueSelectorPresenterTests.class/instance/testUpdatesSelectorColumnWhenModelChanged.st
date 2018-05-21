@@ -1,12 +1,13 @@
 tests
 testUpdatesSelectorColumnWhenModelChanged
-
-	| selectorColumn cells enabledCells |
-	
+	| datasetView row |
+	datasetView := presenter optionPresenter view.
+	row := datasetView builtRowViews at: 1.
+	self assert: (row cellViewAt: 1) specPresenter model value.
+		
 	model value: optionDataset actualItems second.
-	
-	selectorColumn := presenter optionPresenter columns first.
-	cells := presenter cellsForColumn: selectorColumn.	
-	enabledCells := cells select: [ :each | each model value ].
-	self assert: enabledCells size equals: 1.
-	self assert: cells second equals: enabledCells first.
+			
+	row := datasetView builtRowViews at: 1.
+	self deny: (row cellViewAt: 1) specPresenter model value.
+	row := datasetView builtRowViews at: 2.
+	self assert: (row cellViewAt: 1) specPresenter model value.
