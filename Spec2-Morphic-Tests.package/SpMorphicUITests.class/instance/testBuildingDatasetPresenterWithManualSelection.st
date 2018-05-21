@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testBuildingDatasetPresenterWithManualSelection
 
 	| presenter dataset selection |

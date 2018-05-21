@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testModifyingDatasetSelection
 
 	| presenter dataset selection |

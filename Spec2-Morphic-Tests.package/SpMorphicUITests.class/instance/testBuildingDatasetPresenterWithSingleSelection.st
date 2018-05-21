@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testBuildingDatasetPresenterWithSingleSelection
 
 	| presenter dataset selection |

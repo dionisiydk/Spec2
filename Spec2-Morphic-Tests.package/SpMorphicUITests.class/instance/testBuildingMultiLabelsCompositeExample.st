@@ -1,4 +1,4 @@
-tests
+tests-general
 testBuildingMultiLabelsCompositeExample
 
 	| presenter |

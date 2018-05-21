@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FTTableContainerMorph",
+	"category" : "Spec2-Morphic-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpDatasetContainerMorph",
+	"type" : "normal"
+}

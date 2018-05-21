@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "FTTableRowMorph",
+	"category" : "Spec2-Morphic-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpDatasetRowMorph",
+	"type" : "normal"
+}

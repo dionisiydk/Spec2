@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testSelectingDatasetPresenterItemsShouldMakeThemVisible
 
 	| presenter dataset selection lastBuiltRow |
@@ -8,7 +8,8 @@ testSelectingDatasetPresenterItemsShouldMakeThemVisible
 	presenter buildIn: ui.
 
 	selection selectItemsWith: #(1000).
-	presenter view forceRowsUpdate. "Normally table morphs updates during draw cicle"
+	self assert: presenter view wantsUpdate.
+	presenter view forceFullUpdate. "Normally table morphs are updated during draw cicle"
 	
 	lastBuiltRow := presenter view builtRowViews last.
 	self assert: (lastBuiltRow cellViewAt: 1) specPresenter model value actualItem equals: 1000

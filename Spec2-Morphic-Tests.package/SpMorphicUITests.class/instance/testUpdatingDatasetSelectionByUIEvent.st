@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testUpdatingDatasetSelectionByUIEvent
 
 	| presenter dataset selection |

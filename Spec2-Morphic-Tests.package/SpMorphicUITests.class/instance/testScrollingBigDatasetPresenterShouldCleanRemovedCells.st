@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testScrollingBigDatasetPresenterShouldCleanRemovedCells
 
 	| presenter dataset selection builtChildren1 |
@@ -7,9 +7,11 @@ testScrollingBigDatasetPresenterShouldCleanRemovedCells
 	selection := presenter addSelection: SpManualSelection new.
 	presenter buildIn: ui.
 	
-	builtChildren1 := presenter children.	
+	presenter view forceFullUpdate. "Normally table morphs are updated during draw cicle"
+		
+	builtChildren1 := presenter children copy.	
 	selection selectItemsWith: #(1000).
-	presenter view forceRowsUpdate. "Normally table morphs updates during draw cicle"
+	presenter view forceFullUpdate. "Normally table morphs are updated during draw cicle"
 	
 	self deny: (presenter children includesAny: builtChildren1).
 	"presenter children collect: [ :each | each model value actualItem ]"

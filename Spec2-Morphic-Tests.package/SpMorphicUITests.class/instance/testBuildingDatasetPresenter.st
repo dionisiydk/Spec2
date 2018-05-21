@@ -1,4 +1,4 @@
-tests
+tests-dataset
 testBuildingDatasetPresenter
 
 	| presenter dataset |

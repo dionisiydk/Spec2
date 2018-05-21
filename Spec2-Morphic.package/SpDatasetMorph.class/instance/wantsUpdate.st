@@ -1,0 +1,3 @@
+testing
+wantsUpdate
+	^container needsRefreshExposedRows
