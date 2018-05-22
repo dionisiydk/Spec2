@@ -1,3 +1,3 @@
 accessing
-index
+dataSourceIndex
 	^dataSourceItem index

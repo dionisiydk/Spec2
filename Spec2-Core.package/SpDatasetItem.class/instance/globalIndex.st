@@ -1,0 +1,3 @@
+accessing
+globalIndex
+	^ownerDataset convertToGlobalIndex: self dataSourceIndex

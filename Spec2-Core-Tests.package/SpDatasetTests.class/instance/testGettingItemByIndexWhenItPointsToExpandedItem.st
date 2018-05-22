@@ -10,5 +10,5 @@ testGettingItemByIndexWhenItPointsToExpandedItem
 	
 	self assert: item class equals: SpDatasetItem.
 	self assert: item dataSourceItem class equals: SpDataItem.
-	self assert: item actualItem equals: (dataSource actualItems at: 4).
+	self assert: item actualItem equals: 4.
 	self assert: item ownerDataset equals: expandedItem childrenDataset

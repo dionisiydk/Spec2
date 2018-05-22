@@ -1,18 +1,18 @@
 queries
-itemAt: globalIndex
-	| dataItem localDataSourceIndex |
-	localDataSourceIndex := globalIndex.	
+itemAt: indexInDataset
+	| dataItem localIndex |
+	localIndex := indexInDataset.	
 
 	expandedItems do: [:each | 
-		each index = localDataSourceIndex ifTrue: [ ^each ].
-		(each hasChildAt: localDataSourceIndex) ifTrue: [
-			^each childrenItemAt: localDataSourceIndex].
-		(each index > localDataSourceIndex) ifTrue: [
-			dataItem := dataSource itemAt: localDataSourceIndex.
+		each dataSourceIndex = localIndex ifTrue: [ ^each ].
+		(each hasChildAt: localIndex) ifTrue: [
+			^each childItemAt: localIndex].
+		(each dataSourceIndex > localIndex) ifTrue: [
+			dataItem := dataSource itemAt: localIndex.
 			^SpDatasetItem of: self item: dataItem ].
-		localDataSourceIndex := localDataSourceIndex - each childrenCount.
+		localIndex := localIndex - each childrenCount.
 	].
 
-	dataItem := dataSource itemAt: localDataSourceIndex.
+	dataItem := dataSource itemAt: localIndex.
 	^SpDatasetItem of: self item: dataItem 
 	
