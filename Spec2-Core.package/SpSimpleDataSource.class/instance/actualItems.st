@@ -1,3 +1,3 @@
 accessing
 actualItems
-	^ actualItems
+	^ items collect: [ :each | each actualItem ]

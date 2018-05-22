@@ -1,3 +1,3 @@
 accessing
 itemCount
-	^actualItems size
+	^items size

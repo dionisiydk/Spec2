@@ -1,0 +1,3 @@
+controlling
+open
+	wasOpened := true

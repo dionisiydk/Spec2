@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpSimpleDataSource",
+	"category" : "Spec2-Core-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"wasOpened",
+		"wasClosed"
+	],
+	"name" : "SpDataSourceForTest",
+	"type" : "normal"
+}

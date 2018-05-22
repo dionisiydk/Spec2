@@ -3,5 +3,5 @@ initialize
 	super initialize.
 	
 	depth := 0.
-	expandedItems := OrderedCollection new.
+	expandedItems := SortedCollection sortBlock: #index ascending.
 	dirty := false

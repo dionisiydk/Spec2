@@ -2,4 +2,6 @@ initialization
 detachFromModel
 	super detachFromModel.
 	
-	model unsubscribe: self
+	model unsubscribe: self.
+	model close.
+	

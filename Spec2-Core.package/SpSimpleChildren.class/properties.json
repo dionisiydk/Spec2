@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpDataSource",
+	"super" : "SpDataItemChildren",
 	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,6 +8,6 @@
 	"instvars" : [
 		"items"
 	],
-	"name" : "SpSimpleDataSource",
+	"name" : "SpSimpleChildren",
 	"type" : "normal"
 }

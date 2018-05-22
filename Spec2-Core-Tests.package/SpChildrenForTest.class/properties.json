@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpSimpleChildren",
+	"category" : "Spec2-Core-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpChildrenForTest",
+	"type" : "normal"
+}
