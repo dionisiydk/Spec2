@@ -1,3 +1,3 @@
 building cells
-createCellPresenterFor: aDataItem
-	^SpDataItemNamePresenter on: aDataItem
+createCellPresenterFor: aDatasetItem
+	^SpDataItemNamePresenter on: aDatasetItem

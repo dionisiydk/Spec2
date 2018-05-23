@@ -1,6 +1,6 @@
 building cells
-buildCellFor: aDataItem
+buildCellFor: aDatasetItem
 	| cell |
-	cell := self createCellPresenterFor: aDataItem.
+	cell := SpDatasetCellPresenter on: aDatasetItem column: self. 
 	datasetPresenter buildChild: cell.
 	^cell

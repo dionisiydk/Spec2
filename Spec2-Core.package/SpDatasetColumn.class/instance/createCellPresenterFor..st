@@ -1,3 +1,3 @@
 building cells
-createCellPresenterFor: aDataItem
+createCellPresenterFor: aDatasetItem
 	self subclassResponsibility 

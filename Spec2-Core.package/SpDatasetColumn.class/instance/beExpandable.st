@@ -1,0 +1,3 @@
+initialization
+beExpandable
+	isExpandable := true

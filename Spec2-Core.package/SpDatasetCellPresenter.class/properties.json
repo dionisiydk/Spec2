@@ -1,15 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
+	"super" : "SpCompositePresenter",
 	"category" : "Spec2-Core-Dataset",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"datasetPresenter",
-		"width",
-		"isExpandable"
+		"column",
+		"contentPresenter",
+		"mainDecoration",
+		"extraDecorations"
 	],
-	"name" : "SpDatasetColumn",
+	"name" : "SpDatasetCellPresenter",
 	"type" : "normal"
 }

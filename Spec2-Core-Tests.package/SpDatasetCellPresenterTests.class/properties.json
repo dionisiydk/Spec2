@@ -1,15 +1,14 @@
 {
 	"commentStamp" : "",
-	"super" : "Object",
-	"category" : "Spec2-Core-Dataset",
+	"super" : "SpPresenterTestCase",
+	"category" : "Spec2-Core-Tests-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
 		"datasetPresenter",
-		"width",
-		"isExpandable"
+		"dataset"
 	],
-	"name" : "SpDatasetColumn",
+	"name" : "SpDatasetCellPresenterTests",
 	"type" : "normal"
 }

@@ -1,6 +1,7 @@
 building cells
-createCellPresenterFor: aDataItem
+createCellPresenterFor: aDatasetItem
 
 	| cellModel |
-	cellModel := selectionStrategy prepareExistanceModelOfItem: aDataItem actualItem in: affectedModel.
+	cellModel := selectionStrategy 
+		prepareExistenceModelOfItem: aDatasetItem actualItem in: affectedModel.
 	^cellModel createInputPresenter
