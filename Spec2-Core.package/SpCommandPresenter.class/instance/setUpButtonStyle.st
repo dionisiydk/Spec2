@@ -14,8 +14,8 @@ setUpButtonStyle
 		layout beFlow horizontal; alignCenter.
 		layout padding: 3@2.
 		
-		model icon ifNotNil: [ :icon | 
+		model menuItemIcon ifNotNil: [ :icon | 
 			layout add: (SpImagePresenter on: icon) with: [ :c | 
 				c fitContent; margin: 2@2 ]].
-		layout add: (SpLabelPresenter textual: model name) with: [ :c | 
+		layout add: (SpLabelPresenter textual: model menuItemName) with: [ :c | 
 			c fitContent; margin: 2@2 ] ]

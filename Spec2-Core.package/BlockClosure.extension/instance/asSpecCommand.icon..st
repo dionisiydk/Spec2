@@ -1,4 +1,4 @@
 *Spec2-Core
-asSpecCommand: commandName icon: iconName 
+asSpecCommand: commandName icon: aForm
 	^(self asSpecCommand: commandName)
-		iconName: iconName
+		icon: aForm

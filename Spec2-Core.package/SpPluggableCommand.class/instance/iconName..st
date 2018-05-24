@@ -1,3 +1,3 @@
 accessing
-iconName: anObject
-	iconName := anObject
+iconName: aString
+	icon := self class iconNamed: aString

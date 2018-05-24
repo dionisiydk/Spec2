@@ -1,11 +1,8 @@
 initialization
 createExpansionButton
 	
-	| icon |
-	icon := model isExpanded 
-		ifTrue: [ ui theme treeExpandedForm ] ifFalse: [ ui theme treeUnexpandedForm ].
+	| commandClass |
+	commandClass := model isExpanded 
+		ifTrue: [ SpCollapseDatasetCommand ] ifFalse: [ SpExpandDatasetCommand ].
 		
-	^SpCommandPresenter 
-		buttonOn: [ model toggleExpansion ]
-		named: ''
-		icon: icon
+	^SpCommandPresenter on: (commandClass atItem: model) withStyle: #iconicButton

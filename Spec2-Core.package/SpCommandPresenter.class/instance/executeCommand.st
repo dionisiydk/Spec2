@@ -1,4 +1,4 @@
 initialization
 executeCommand
 	
-	model execute
+	model executeCommand

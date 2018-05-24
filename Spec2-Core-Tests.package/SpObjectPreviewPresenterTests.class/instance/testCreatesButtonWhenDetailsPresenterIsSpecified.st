@@ -7,4 +7,4 @@ testCreatesButtonWhenDetailsPresenterIsSpecified
 	
 	actual := presenter children detect: [ :each | each class = SpCommandPresenter ].
 	
-	self assert: actual model name equals: '...'
+	self assert: actual model menuItemName equals: '...'

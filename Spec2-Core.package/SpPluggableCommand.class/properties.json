@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "SpCommand",
+	"super" : "CmdCommand",
 	"category" : "Spec2-Core-Models",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,7 @@
 	"instvars" : [
 		"block",
 		"name",
-		"iconName"
+		"icon"
 	],
 	"name" : "SpPluggableCommand",
 	"type" : "normal"

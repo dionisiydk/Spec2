@@ -7,4 +7,5 @@ testCreatesSubmitButtonForValidModel
 	presenter useResult: SpOkDialogResult new for: SpSubmitDialogCommand.
 	presenter updateToolbar.
 	
-	self assert: presenter toolbar children size equals: 1
+	self assert: presenter toolbar commands size equals: 1.
+	self assert: presenter toolbar commands anyOne class equals: SpSubmitDialogCommand.

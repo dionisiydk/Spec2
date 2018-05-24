@@ -1,5 +1,5 @@
 tests
-testCreatesExpansionButtonForExpandableColumnWhenItemHasChildren
+testCreatesExpandButtonForExpandableColumnWhenItemHasChildren
 	
 	| button |
 	presenter column beExpandable.
@@ -8,6 +8,6 @@ testCreatesExpansionButtonForExpandableColumnWhenItemHasChildren
 	presenter rebuild.
 	
 	button := presenter children detect: [ :each | each class = SpCommandPresenter ].
-	button executeCommand.
-	
-	self assert: model isExpanded
+	self assert: button command class equals: SpExpandDatasetCommand.
+	self assert: button command datasetItem equals: model.
+	self assert: button currentStyle equals: #iconicButton.

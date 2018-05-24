@@ -6,7 +6,7 @@ setUpDefaultStyle
 		layout beFlow horizontal.
 		layout alignCenterLeft.
 		
-		column isExpandable ifTrue: [ 
+		self isExpandable ifTrue: [ 
 			layout add: self createExpansionButton with: [ :c | 
 				c horizontal fitContent.
 				c vertical fitContent
