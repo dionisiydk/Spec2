@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpTraverseDatasetCommand",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpCollapseDatasetCommand",
+	"type" : "normal"
+}
