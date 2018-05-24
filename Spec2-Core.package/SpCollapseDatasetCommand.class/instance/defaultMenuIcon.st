@@ -1,4 +1,4 @@
 accessing
 defaultMenuIcon
 
-	^Smalltalk ui theme treeUnexpandedForm
+	^Smalltalk ui theme treeExpandedForm 

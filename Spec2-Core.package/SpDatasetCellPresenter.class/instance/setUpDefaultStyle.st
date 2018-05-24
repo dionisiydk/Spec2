@@ -5,9 +5,11 @@ setUpDefaultStyle
 	ui layout: self with: [ :layout | 
 		layout beFlow horizontal.
 		layout alignCenterLeft.
+		layout padding: 2@2.
 		
 		self isExpandable ifTrue: [ 
 			layout add: self createExpansionButton with: [ :c | 
+				c margin: 3@0.
 				c horizontal fitContent.
 				c vertical fitContent
 			]]. 
