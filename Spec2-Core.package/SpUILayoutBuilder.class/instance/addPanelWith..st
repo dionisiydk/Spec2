@@ -4,10 +4,11 @@ addPanelWith: layoutBlock
 	| currentContainer newContainer |
 	currentContainer := viewContainer.
 	newContainer := ui createDefaulViewContainer.
-	
-	viewContainer := newContainer.
+	newContainer isMorph ifTrue: [ newContainer setNameTo: 'Panel' ].
 	self buildBy: [
-		self layoutChildView: viewContainer with: layoutBlock].
+		self layoutChildView: newContainer with: [:panelConstraints |	
+			viewContainer := newContainer.		 
+			layoutBlock value: panelConstraints ]].
 	
 	viewContainer := currentContainer.
 	self addChildView: newContainer
