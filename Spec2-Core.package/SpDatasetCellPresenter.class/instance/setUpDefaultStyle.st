@@ -12,12 +12,19 @@ setUpDefaultStyle
 				c margin: 3@0.
 				c horizontal exact: model depth * 9.
 				c vertical matchParent ] ].
-		self isExpandable ifTrue: [ 
-			layout add: self createExpansionButton with: [ :c | 
-				c margin: 3@0.
-				c horizontal fitContent.
-				c vertical fitContent
-			]]. 
+		column isExpandable ifTrue: [ 
+			model isExpandable
+				ifTrue: [ 
+					layout add: self createExpansionButton with: [ :c | 
+						c margin: 3@0.
+						c horizontal fitContent.
+						c vertical fitContent]]
+				ifFalse: [ 
+					layout addPanelWith: [ :c | 
+						c margin: 3@0.
+						c horizontal exact: 9.
+						c vertical matchParent ]]
+		]. 
 		
 		layout add: contentPresenter with: [ :c | 
 			c horizontal fitContent.
