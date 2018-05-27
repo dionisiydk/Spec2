@@ -10,7 +10,8 @@
 		"parentItem",
 		"depth",
 		"expandedItems",
-		"dirty"
+		"dirty",
+		"announcer"
 	],
 	"name" : "SpDataset",
 	"type" : "normal"

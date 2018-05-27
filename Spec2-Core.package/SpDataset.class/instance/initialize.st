@@ -4,4 +4,5 @@ initialize
 	
 	depth := 0.
 	expandedItems := SortedCollection sortBlock: #dataSourceIndex ascending.
-	dirty := false
+	dirty := false.
+	announcer := Announcer new

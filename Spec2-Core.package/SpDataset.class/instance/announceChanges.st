@@ -1,0 +1,3 @@
+controlling
+announceChanges
+	announcer announce: ValueChanged

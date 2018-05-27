@@ -1,5 +1,5 @@
 initialization
 attachToModel
 	model open.
-	model whenChangedSend: #datasetChanged: to: self.
+	model whenChangedSend: #refresh to: self.
 	selections do: [ :each | each attachToDataset: model ]

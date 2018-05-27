@@ -1,3 +1,3 @@
 testing
 hasSubscriber: aSubscriber 
-	^false
+	^announcer hasSubscriber: aSubscriber
