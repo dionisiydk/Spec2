@@ -1,3 +1,4 @@
 controlling
 announceChanges
-	announcer announce: ValueChanged
+	announcer announce: ValueChanged.
+	parentItem ifNotNil: [ parentItem propogateChildrenChanges ]
