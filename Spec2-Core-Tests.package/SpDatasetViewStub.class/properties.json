@@ -8,7 +8,8 @@
 	"instvars" : [
 		"columns",
 		"dataset",
-		"manualSelection"
+		"manualSelection",
+		"selectedItemIndexes"
 	],
 	"name" : "SpDatasetViewStub",
 	"type" : "normal"
