@@ -6,4 +6,5 @@ enableManualSelection: aSelection
 		
 	self announcer when: FTSelectionChanged do: [ :ann | 
 		aSelection selectItemsAt: selectedRowIndexes ].
-	aSelection whenChangedSend: #selectionUpdated: to: self 
+	aSelection whenChangedSend: #selectionUpdated: to: self.	
+	aSelection whenIndexUpdatedSend: #selectionIndexUpdated: to: self

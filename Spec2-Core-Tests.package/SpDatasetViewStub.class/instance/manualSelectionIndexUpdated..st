@@ -1,0 +1,3 @@
+accessing
+manualSelectionIndexUpdated: aSelectionIndexUpdated
+	selectedItemIndexes := aSelectionIndexUpdated currentIndexes

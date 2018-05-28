@@ -1,0 +1,3 @@
+accessing
+currentIndexes
+	^selection itemIndexes

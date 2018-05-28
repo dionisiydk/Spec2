@@ -1,0 +1,4 @@
+controlling
+selectionIndexUpdated: aSelectionIndexUpdate
+
+	selectedRowIndexes := aSelectionIndexUpdate currentIndexes
