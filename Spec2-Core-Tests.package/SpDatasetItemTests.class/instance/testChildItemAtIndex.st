@@ -1,5 +1,5 @@
 tests
-testChildrenItemAtIndex
+testChildItemAtIndex
 
 	| item dataset childItem |
 	dataset := SpDataset new.

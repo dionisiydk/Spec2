@@ -9,4 +9,5 @@ testRestoresSelectionWhenDatasetIsChanged
 	
 	model announceChanges. 
 	
-	self deny: selection items = itemsBeforeUpdate
+	self deny: selection items = itemsBeforeUpdate.
+	self assert: selection actualItems equals: { model dataSource actualItems second }

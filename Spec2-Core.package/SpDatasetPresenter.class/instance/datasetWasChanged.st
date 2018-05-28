@@ -1,5 +1,5 @@
 controlling
 datasetWasChanged
 
-	selections do: [ :each | each indexWasUpdated ].
+	selections do: [ :each | each refreshItems ].
 	self refresh

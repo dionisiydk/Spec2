@@ -8,8 +8,8 @@ testRestoresSelectionWhichItemWasRemovedByParentCollapsing
 	presenter rebuild.
 	
 	expandedItem expand.
-	selection selectItemsWith: { #s. model dataSource actualItems second }.
-	self assert: selection actualItems equals: {  #s. model dataSource actualItems second  }.
+	selection selectItemsWith: { model dataSource actualItems second. #s }.
+	self assert: selection actualItems equals: {  model dataSource actualItems second. #s  }.
 	expandedItem collapse.
 	
 	self assert: selection actualItems equals: {model dataSource actualItems second}.
