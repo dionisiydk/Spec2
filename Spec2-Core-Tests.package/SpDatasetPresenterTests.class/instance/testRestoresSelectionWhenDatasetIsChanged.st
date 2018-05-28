@@ -1,5 +1,5 @@
 tests
-testRestoresSelectionsWhenDatasetIsChanged
+testRestoresSelectionWhenDatasetIsChanged
 	
 	| itemsBeforeUpdate selection |
 	selection := presenter addSelection: SpManualSelection new.

@@ -1,5 +1,5 @@
 tests
-testRestoresSelectionsWhenItemWasExpanded
+testRestoresSelectionWhenPreviousItemWasCollapsed
 	
 	| selection expandedItem selectedItem |
 	selection := presenter addSelection: SpManualSelection new.
@@ -9,7 +9,8 @@ testRestoresSelectionsWhenItemWasExpanded
 	presenter rebuild.
 	
 	expandedItem expand.
+	expandedItem collapse.
 	
 	selectedItem := selection items first.
-	self assert: selectedItem globalIndex equals: 5.
-	self assert: presenter view selectedItemIndexes equals: #(5)
+	self assert: selectedItem globalIndex equals: 2.
+	self assert: presenter view selectedItemIndexes equals: #(2)
