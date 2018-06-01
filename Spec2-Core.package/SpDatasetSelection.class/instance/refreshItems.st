@@ -1,4 +1,13 @@
 controlling
 refreshItems
 
-	self selectItemsWith: self actualItems
+	| updatedItems groups liveItems |
+	
+	updatedItems := OrderedCollection new: items size.
+	liveItems := items reject: [:each | each isRemoved ].
+	groups := liveItems groupedBy: [ :each | each ownerDataset ].
+	groups keysAndValuesDo: [ :dataset :localItems | 
+		updatedItems addAll: (dataset localItemsWith: (localItems collect: [ :each | each actualItem ]))
+	].
+
+	self setNewItems: updatedItems

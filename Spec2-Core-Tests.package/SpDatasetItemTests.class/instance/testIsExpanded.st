@@ -10,4 +10,8 @@ testIsExpanded
 	self deny: item isExpanded.
 	
 	item expand.
-	self assert: item isExpanded
+	self assert: item isExpanded.
+	
+	item collapse.
+	self deny: item isExpanded.
+	

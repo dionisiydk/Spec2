@@ -4,5 +4,6 @@ collapse
 	childrenDataset ifNil: [ ^self ].
 	
 	childrenDataset close.
-	ownerDataset itemWasCollapsed: self.
-	childrenDataset := nil
+	childrenDataset := nil.
+	
+	ownerDataset itemWasCollapsed: self
