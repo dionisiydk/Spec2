@@ -1,4 +1,4 @@
-accessing
+controlling
 refresh
 
 	| item cells |
