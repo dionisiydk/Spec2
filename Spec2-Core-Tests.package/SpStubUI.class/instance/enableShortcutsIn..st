@@ -1,2 +1,0 @@
-presenter building
-enableShortcutsIn: aPresenter 

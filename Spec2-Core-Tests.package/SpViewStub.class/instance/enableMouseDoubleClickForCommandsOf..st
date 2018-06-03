@@ -1,0 +1,2 @@
+commander support
+enableMouseDoubleClickForCommandsOf: aPresenter 

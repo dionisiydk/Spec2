@@ -2,4 +2,4 @@
 enableAllInView: aView forCommandsOf: aPresenter
 
 	self allSubclassesDo: [ :each | 
-		each enableInView: aView forCommandsOf: self ]
+		each enableInView: aView forCommandsOf: aPresenter ]
