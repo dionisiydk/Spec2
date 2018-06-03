@@ -1,4 +1,4 @@
 *Spec2-Morphic
-enableShortcutsForPresenter: aPresenter
+enableShortcutsForCommandsOf: aPresenter
 
 	CmdKMDispatcher attachedTo: self withCommandsFrom: aPresenter

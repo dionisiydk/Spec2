@@ -1,4 +1,0 @@
-shortcuts
-enableShortcutsForPresenter: aPresenter
-
-	textMorph textArea enableShortcutsForPresenter: aPresenter
