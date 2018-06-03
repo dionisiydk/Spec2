@@ -1,3 +1,3 @@
 commands
 createCommandContextFor: aDatasetItem 
-	^self createCommandContext 
+	^SpDatasetContext for: self selectedItems: { aDatasetItem }

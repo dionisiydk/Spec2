@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpSimplePresenterContext",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"selectedItems"
+	],
+	"name" : "SpDatasetContext",
+	"type" : "normal"
+}

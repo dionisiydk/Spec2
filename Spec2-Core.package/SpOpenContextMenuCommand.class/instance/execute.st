@@ -3,6 +3,6 @@ execute
 	
 	| menu |
 	menu := self createContextMenu.
-	menu hasItems ifFalse: [^self].
+	menu isEmpty ifTrue: [^self].
 	
 	context openContextMenu: menu
