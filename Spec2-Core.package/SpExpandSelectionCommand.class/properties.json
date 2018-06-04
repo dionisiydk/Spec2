@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newSelectedItem"
+		"newSelectionLastItem"
 	],
-	"name" : "SpToggleSelectionCommand",
+	"name" : "SpExpandSelectionCommand",
 	"type" : "normal"
 }

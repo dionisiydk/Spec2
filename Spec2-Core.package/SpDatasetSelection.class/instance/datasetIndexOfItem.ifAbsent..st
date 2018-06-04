@@ -1,5 +1,5 @@
 private
-indexOfItem: aDatasetItem ifAbsent: absentBlock
+datasetIndexOfItem: aDatasetItem ifAbsent: absentBlock
 
 	indexCache keysAndValuesDo: [ :index :item |
 		(item isEqualTo: aDatasetItem) ifTrue: [ ^index ]	 ].

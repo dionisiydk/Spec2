@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newSelectionLastItem"
+		"targetItem"
 	],
-	"name" : "SpChangeSelectionRangeCommand",
+	"name" : "SpCollapseSelectionCommand",
 	"type" : "normal"
 }

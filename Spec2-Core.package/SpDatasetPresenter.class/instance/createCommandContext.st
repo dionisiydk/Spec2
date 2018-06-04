@@ -1,5 +1,5 @@
 commands
 createCommandContext
 	^self hasManualSelection 
-		ifTrue: [ SpDatasetContext for: self]
-		ifFalse: [ SpDatasetContext for: self selectedItems: self manualSelection items ]
+		ifTrue: [ SpDatasetContext for: self selectedItems: self manualSelection items ]
+		ifFalse: [ SpDatasetContext for: self]

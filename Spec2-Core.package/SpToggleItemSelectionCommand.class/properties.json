@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"newSelectedItem"
+		"targetItem"
 	],
-	"name" : "SpInjectSelectedItemCommand",
+	"name" : "SpToggleItemSelectionCommand",
 	"type" : "normal"
 }

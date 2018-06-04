@@ -5,5 +5,5 @@ testSelectingItemsByIndex
 	
 	selection selectItemsAt: #(1 3).
 
-	expectedItems := { dataset actualItems first. dataset actualItems last }.	
+	expectedItems := { dataset actualItems first. dataset actualItems third }.	
 	self assert: selection actualItems equals: expectedItems
