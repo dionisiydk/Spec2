@@ -2,4 +2,4 @@ execution
 readParametersFromContext: aDatasetContext
 	super readParametersFromContext: aDatasetContext.
 	
-	targetItem := aDatasetContext selectedItems last
+	newSelectionLastItem := aDatasetContext selectedItems last

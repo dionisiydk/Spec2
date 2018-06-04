@@ -1,7 +1,7 @@
 testing
-canBeExecutedInContext: aDialogPresenter
+canBeExecutedInContext: aPresenterContext
 	"Dialog commands are tightly bound to dialog presenter
 	which uses simple tool context to pass itself to command activation methods"
-	(super canBeExecutedInContext: aDialogPresenter) ifFalse: [ ^false ].
+	(super canBeExecutedInContext: aPresenterContext) ifFalse: [ ^false ].
 	
-	^aDialogPresenter hasResultFor: self
+	^aPresenterContext tool hasResultFor: self

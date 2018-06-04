@@ -9,4 +9,4 @@ testModifyingDatasetSelection
 	
 	selection selectItemsWith: #(one three).
 	
-	self assert: presenter view selectedRowIndexes equals: #(1 3)
+	self assert: presenter view selectedRowIndexes equals: #(3 1) "Fast table manage rows in reversed order"

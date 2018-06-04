@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "SpDatasetSelectionCommand",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"newSelectedItem"
+	],
+	"name" : "SpToggleSelectionCommand",
+	"type" : "normal"
+}
