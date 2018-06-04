@@ -4,5 +4,5 @@ initialize
 	
 	self beMultiple.
 	items := #().
-	indexCache := #().
+	indexCache := Dictionary new.
 	announcer := Announcer new

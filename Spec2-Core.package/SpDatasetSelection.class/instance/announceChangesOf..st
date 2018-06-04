@@ -1,4 +1,4 @@
 private
-announceChangesOf: oldItems
+announceChangesOf: oldIndexedItems
 
-	announcer announce: (ValueChanged oldValue: oldItems newValue: items)
+	announcer announce: (ValueChanged oldValue: oldIndexedItems values newValue: items)

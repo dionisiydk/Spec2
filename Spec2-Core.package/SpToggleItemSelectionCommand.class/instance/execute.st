@@ -1,4 +1,6 @@
 execution
 execute
 
-	selection selectItemsAt: {targetItem globalIndex}
+	(selection includesItem: targetItem)
+		ifTrue: [ selection reset ]
+		ifFalse: [ selection setNewItems: {targetItem} ]
