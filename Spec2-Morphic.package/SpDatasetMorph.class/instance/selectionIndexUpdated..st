@@ -1,4 +1,5 @@
 controlling
 selectionIndexUpdated: aSelectionIndexUpdate
-
-	selectedRowIndexes := aSelectionIndexUpdate currentIndexes
+	"Fast table manage selection in reversed order"
+	selectedRowIndexes := aSelectionIndexUpdate currentIndexes reversed.
+	self refresh

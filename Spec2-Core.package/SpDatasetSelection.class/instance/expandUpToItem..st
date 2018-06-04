@@ -1,6 +1,5 @@
 controlling
 expandUpToItem: aDatasetItem
-	
 	| addedItems newRegion oldItems |
 	self isEmpty ifTrue: [ ^self setNewItems: { aDatasetItem } ].
 	
