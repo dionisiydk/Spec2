@@ -2,4 +2,4 @@ activation
 shortcutActivation3
 	<classAnnotation>
 	
-	^CmdShortcutCommandActivation by: $s meta for: SpDialogPresenter
+	^CmdShortcutActivation by: $s meta for: SpDialogPresenter

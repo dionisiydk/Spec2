@@ -2,4 +2,4 @@ activation
 shortcutActivation
 	<classAnnotation>
 	
-	^CmdShortcutCommandActivation by: Character enter asShortcut for: SpDialogPresenter
+	^CmdShortcutActivation by: Character enter asShortcut for: SpDialogPresenter
