@@ -6,5 +6,6 @@ itemsExtendingContextOf: aDatasetItem
 	items last = existingItem ifTrue: [ ^items ].
 	
 	reorderedItems := items copy.
-	reorderedItems swap: (items indexOf: existingItem) with: reorderedItems size.
+	reorderedItems at: (items indexOf: existingItem) put: items last.
+	reorderedItems atLast: 1 put: existingItem.
 	^reorderedItems
