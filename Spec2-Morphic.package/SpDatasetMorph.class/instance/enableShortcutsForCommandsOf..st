@@ -1,0 +1,4 @@
+command activation
+enableShortcutsForCommandsOf: aPresenter
+
+	container enableShortcutsForCommandsOf: aPresenter

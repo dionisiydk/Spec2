@@ -1,0 +1,3 @@
+command activation
+enableMouseClickForCommandsOf: aPresenter
+	container enableMouseClickForCommandsOf: aPresenter

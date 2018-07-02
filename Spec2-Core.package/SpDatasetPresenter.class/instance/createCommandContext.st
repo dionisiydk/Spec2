@@ -1,5 +1,8 @@
 commands
 createCommandContext
-	^self hasManualSelection 
-		ifTrue: [ SpDatasetContext for: self selectedItems: self manualSelection items ]
-		ifFalse: [ SpDatasetContext for: self]
+	| activeSelection |
+	activeSelection := selections 
+		detect: [ :each | each providesItemsForContext ]  
+		ifNone: [ ^SpDatasetContext for: self].
+		
+	 ^SpDatasetContext for: self selectedItems: activeSelection items 
