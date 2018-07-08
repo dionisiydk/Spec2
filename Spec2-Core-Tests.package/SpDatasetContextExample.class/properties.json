@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "SpDatasetContext",
+	"category" : "Spec2-Core-Tests-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SpDatasetContextExample",
+	"type" : "normal"
+}

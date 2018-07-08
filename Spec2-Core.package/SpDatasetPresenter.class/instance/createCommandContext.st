@@ -3,6 +3,6 @@ createCommandContext
 	| activeSelection |
 	activeSelection := selections 
 		detect: [ :each | each providesItemsForContext ]  
-		ifNone: [ ^SpDatasetContext for: self].
+		ifNone: [ ^itemContextClass for: self].
 		
-	 ^SpDatasetContext for: self selectedItems: activeSelection items 
+	 ^itemContextClass for: self selectedItems: activeSelection items 

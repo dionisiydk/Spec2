@@ -4,4 +4,5 @@ initialize
 	
 	columns := { SpItemNameColumn of: self }.
 	selections := OrderedCollection new.
-	showsColumnHeader := false
+	showsColumnHeader := false.
+	itemContextClass := SpDatasetContext

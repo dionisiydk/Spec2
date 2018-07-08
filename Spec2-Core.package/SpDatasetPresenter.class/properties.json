@@ -8,7 +8,8 @@
 	"instvars" : [
 		"columns",
 		"selections",
-		"showsColumnHeader"
+		"showsColumnHeader",
+		"itemContextClass"
 	],
 	"name" : "SpDatasetPresenter",
 	"type" : "normal"
