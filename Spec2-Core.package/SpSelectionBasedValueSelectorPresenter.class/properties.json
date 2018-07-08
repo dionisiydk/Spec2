@@ -5,9 +5,7 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"optionSelection"
-	],
+	"instvars" : [ ],
 	"name" : "SpSelectionBasedValueSelectorPresenter",
 	"type" : "normal"
 }

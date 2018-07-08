@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"optionPresenter"
+		"optionPresenter",
+		"optionSelection"
 	],
 	"name" : "SpFullListValueSelectorPresenter",
 	"type" : "normal"

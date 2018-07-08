@@ -1,3 +1,3 @@
-accessing
+testing
 isSingle
-	^ strategy isSingle
+	^strategy isSingle
