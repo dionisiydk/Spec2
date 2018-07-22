@@ -2,4 +2,4 @@ activation
 exampleDatasetMenuActivation
 	<classAnnotation>
 	
-	^CmdContextMenuActivation byRootGroupItemFor: SpDatasetPresenter  
+	^CmdContextMenuActivation byRootGroupItemFor: SpDatasetContextExample

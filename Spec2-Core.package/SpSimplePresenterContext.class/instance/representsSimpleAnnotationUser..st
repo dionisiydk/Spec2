@@ -1,4 +1,5 @@
 testing
-representsSimpleAnnotationUser: aToolClass
+representsSimpleAnnotationUser: someUserClass
 
-	^tool isKindOf: aToolClass
+	^(super representsSimpleAnnotationUser: someUserClass)
+		or: [tool isKindOf: someUserClass]

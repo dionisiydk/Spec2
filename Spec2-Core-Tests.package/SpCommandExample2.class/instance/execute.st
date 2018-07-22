@@ -1,3 +1,3 @@
 execution
 execute
-	self logCr
+	self inform: self printString

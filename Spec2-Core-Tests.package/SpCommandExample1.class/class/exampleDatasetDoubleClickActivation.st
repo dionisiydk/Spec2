@@ -2,4 +2,4 @@ activation
 exampleDatasetDoubleClickActivation
 	<classAnnotation>
 	
-	^CmdDoubleClickActivation for: SpDatasetCellPresenter 
+	^CmdDoubleClickActivation for: SpDatasetContextExample 
