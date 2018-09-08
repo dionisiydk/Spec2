@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "SpDatasetCommand",
+	"category" : "Spec2-Core-Dataset",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"datasetPresenter",
+		"targetItems"
+	],
+	"name" : "SpOpenDatasetMenuCommand",
+	"type" : "normal"
+}

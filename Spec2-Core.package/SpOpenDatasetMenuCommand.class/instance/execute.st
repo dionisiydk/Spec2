@@ -5,4 +5,4 @@ execute
 	menu := self createContextMenu.
 	menu isEmpty ifTrue: [^self].
 	
-	context openContextMenu: menu
+	datasetPresenter openContextMenu: menu
