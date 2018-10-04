@@ -1,3 +1,0 @@
-testing
-wantsUpdate
-	^container needsRefreshExposedRows

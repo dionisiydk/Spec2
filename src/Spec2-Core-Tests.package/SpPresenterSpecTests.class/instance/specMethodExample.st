@@ -1,5 +1,0 @@
-running
-specMethodExample
-	<viewSpec>
-	
-	^#exampleSpecApplied

@@ -1,1 +1,0 @@
-I do not apply any decoration to given strings.

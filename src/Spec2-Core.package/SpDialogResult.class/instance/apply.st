@@ -1,4 +1,0 @@
-applying
-apply
-
-	applyingBlock value

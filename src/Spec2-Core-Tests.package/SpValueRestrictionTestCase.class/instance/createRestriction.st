@@ -1,3 +1,0 @@
-running
-createRestriction
-	self subclassResponsibility 

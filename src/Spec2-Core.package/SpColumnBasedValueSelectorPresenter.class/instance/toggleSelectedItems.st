@@ -1,4 +1,0 @@
-operations
-toggleSelectedItems
-
-	optionSelection toggleItemsInActualModel: model

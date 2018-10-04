@@ -1,3 +1,0 @@
-initialization
-beExpandable
-	isExpandable := true

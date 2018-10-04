@@ -1,3 +1,0 @@
-accessing
-manualSelection
-	^tool manualSelection

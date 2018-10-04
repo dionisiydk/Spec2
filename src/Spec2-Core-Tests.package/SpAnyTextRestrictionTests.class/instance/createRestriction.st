@@ -1,4 +1,0 @@
-running
-createRestriction
-	
-	^SpAnyTextRestriction new

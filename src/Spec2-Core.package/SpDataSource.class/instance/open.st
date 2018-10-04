@@ -1,3 +1,0 @@
-controlling
-open
-	self subclassResponsibility 

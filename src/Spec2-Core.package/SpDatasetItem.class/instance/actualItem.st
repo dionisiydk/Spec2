@@ -1,3 +1,0 @@
-accessing
-actualItem
-	^dataSourceItem actualItem

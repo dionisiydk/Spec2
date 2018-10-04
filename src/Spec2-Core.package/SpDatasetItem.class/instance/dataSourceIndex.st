@@ -1,3 +1,0 @@
-accessing
-dataSourceIndex
-	^dataSourceItem index

@@ -1,4 +1,0 @@
-context menu
-createContextMenu 
-
-	^CmdContextMenuActivation buildMenuInContext: datasetPresenter createCommandContext

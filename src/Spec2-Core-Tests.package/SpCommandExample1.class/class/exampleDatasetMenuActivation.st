@@ -1,5 +1,0 @@
-activation
-exampleDatasetMenuActivation
-	<classAnnotation>
-	
-	^CmdContextMenuActivation byRootGroupItemFor: SpDatasetContextExample

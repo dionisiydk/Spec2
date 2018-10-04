@@ -1,4 +1,0 @@
-initialization
-executeCommand
-	
-	model executeCommand

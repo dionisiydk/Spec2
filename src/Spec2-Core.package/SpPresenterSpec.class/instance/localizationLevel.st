@@ -1,3 +1,0 @@
-accessing
-localizationLevel
-	^contexts size

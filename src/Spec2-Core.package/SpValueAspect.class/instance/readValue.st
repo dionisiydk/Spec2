@@ -1,3 +1,0 @@
-operations
-readValue
-	self subclassResponsibility 

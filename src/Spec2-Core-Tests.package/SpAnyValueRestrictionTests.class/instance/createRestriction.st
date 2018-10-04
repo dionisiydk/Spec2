@@ -1,4 +1,0 @@
-tests
-createRestriction
-
-	^SpAnyValueRestriction new

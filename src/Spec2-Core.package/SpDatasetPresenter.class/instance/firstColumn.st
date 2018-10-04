@@ -1,3 +1,0 @@
-accessing
-firstColumn
-	^columns first

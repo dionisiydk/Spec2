@@ -1,3 +1,0 @@
-running
-createRestriction
-	^SpSingleLineTextRestriction new

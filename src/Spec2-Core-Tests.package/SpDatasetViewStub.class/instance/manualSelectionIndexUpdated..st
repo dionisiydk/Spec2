@@ -1,3 +1,0 @@
-event handling
-manualSelectionIndexUpdated: aSelectionIndexUpdated
-	selectedItemIndexes := aSelectionIndexUpdated currentIndexes

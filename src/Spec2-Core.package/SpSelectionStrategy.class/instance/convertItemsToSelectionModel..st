@@ -1,4 +1,0 @@
-items convertion
-convertItemsToSelectionModel: selectedItemsArray
-
-	self subclassResponsibility 

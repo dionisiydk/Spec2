@@ -1,3 +1,0 @@
-testing
-supportsConvertionFromString
-	^false

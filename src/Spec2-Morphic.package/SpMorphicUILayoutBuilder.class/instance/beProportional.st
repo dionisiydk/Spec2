@@ -1,3 +1,0 @@
-layout-strategies
-beProportional
-	viewContainer changeProportionalLayout

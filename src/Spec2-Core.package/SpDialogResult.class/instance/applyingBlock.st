@@ -1,3 +1,0 @@
-accessing
-applyingBlock
-	^ applyingBlock

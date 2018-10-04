@@ -1,2 +1,0 @@
-layout-alignment
-alignCenter

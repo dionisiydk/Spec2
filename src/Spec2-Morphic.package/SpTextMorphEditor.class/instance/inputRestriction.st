@@ -1,3 +1,0 @@
-accessing
-inputRestriction
-	^self textMorph inputRestriction

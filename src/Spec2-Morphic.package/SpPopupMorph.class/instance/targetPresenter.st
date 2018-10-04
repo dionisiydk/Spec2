@@ -1,3 +1,0 @@
-accessing
-targetPresenter
-	^ targetPresenter

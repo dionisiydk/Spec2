@@ -1,3 +1,0 @@
-running
-createTextDecoration
-	^SpSmartNumberDecoration new

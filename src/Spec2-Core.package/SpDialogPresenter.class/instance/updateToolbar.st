@@ -1,3 +1,0 @@
-controlling
-updateToolbar
-	toolbar rebuild

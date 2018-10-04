@@ -1,4 +1,0 @@
-styles-default
-setUpDefaultStyle
-	<styleSpec>
-	

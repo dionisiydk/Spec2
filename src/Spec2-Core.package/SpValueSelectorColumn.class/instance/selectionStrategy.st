@@ -1,3 +1,0 @@
-accessing
-selectionStrategy
-	^ selectionStrategy

@@ -1,2 +1,0 @@
-layout strategies
-matchParent

@@ -1,3 +1,0 @@
-accessing
-defaultContainer
-	^ SpDatasetContainerMorph new 

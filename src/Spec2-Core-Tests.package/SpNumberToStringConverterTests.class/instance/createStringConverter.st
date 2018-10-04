@@ -1,3 +1,0 @@
-running
-createStringConverter
-	^SpNumberToStringConverter new

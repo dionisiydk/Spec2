@@ -1,4 +1,0 @@
-initialization
-enableCommands
-
-	CmdCommandActivationStrategy enableAllInView: view forCommandsOf: self

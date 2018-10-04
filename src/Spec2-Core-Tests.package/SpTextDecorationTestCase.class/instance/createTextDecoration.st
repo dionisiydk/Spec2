@@ -1,3 +1,0 @@
-running
-createTextDecoration
-	self subclassResponsibility 

@@ -1,3 +1,0 @@
-accessing
-presenterSpecs
-	^ presenterSpecs

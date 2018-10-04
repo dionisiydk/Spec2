@@ -1,3 +1,0 @@
-running
-defaultModel
-	^SpMultiLabelPresenterExample new

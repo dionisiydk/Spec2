@@ -1,3 +1,0 @@
-accessing
-valueGetter
-	^ valueGetter

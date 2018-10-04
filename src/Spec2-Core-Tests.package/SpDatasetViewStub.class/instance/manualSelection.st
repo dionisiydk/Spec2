@@ -1,3 +1,0 @@
-accessing
-manualSelection
-	^ manualSelection

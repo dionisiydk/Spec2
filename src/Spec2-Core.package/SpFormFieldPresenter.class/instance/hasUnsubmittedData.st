@@ -1,3 +1,0 @@
-testing
-hasUnsubmittedData
-	^model hasUnacceptedValue

@@ -1,9 +1,0 @@
-attached model
-selectActualItemsFromEvent: aValueChanged
-	"We expect single value change when selection is single.
-	And we expect list value change when selection is multiple. 
-	In last case aValueChanged newValue should be collection"
-	| newActualItems |
-	newActualItems := strategy convertSelectionModelToItems: aValueChanged newValue.
-		
-	self selectItemsWith: newActualItems

@@ -1,3 +1,0 @@
-accessing
-valueAspect
-	^ valueAspect

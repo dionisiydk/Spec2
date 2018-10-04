@@ -1,3 +1,0 @@
-testing
-isExpanded
-	^childrenDataset notNil

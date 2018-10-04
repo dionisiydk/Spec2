@@ -1,3 +1,0 @@
-running
-convertedValueExample
-	self subclassResponsibility 

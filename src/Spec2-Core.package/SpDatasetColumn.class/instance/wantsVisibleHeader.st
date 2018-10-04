@@ -1,4 +1,0 @@
-testing
-wantsVisibleHeader
-
-	^datasetPresenter showsColumnHeader

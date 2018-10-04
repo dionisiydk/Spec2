@@ -1,2 +1,0 @@
-commander support
-enableShortcutsForCommandsOf: aPresenter 

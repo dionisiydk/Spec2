@@ -1,3 +1,0 @@
-operations
-parseValueFromString: aString
-	self subclassResponsibility 

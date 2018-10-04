@@ -1,3 +1,0 @@
-helpers
-aspectExample
-	self subclassResponsibility 

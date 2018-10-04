@@ -1,3 +1,0 @@
-running
-createStringConverter
-	^SpObjectToStringConverter new

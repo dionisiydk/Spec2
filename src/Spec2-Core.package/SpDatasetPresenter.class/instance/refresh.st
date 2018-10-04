@@ -1,4 +1,0 @@
-controlling
-refresh
-
-	view refresh

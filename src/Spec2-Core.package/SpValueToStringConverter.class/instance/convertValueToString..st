@@ -1,3 +1,0 @@
-operations
-convertValueToString: anObject
-	self subclassResponsibility 

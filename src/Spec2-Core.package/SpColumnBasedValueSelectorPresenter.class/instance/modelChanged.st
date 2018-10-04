@@ -1,4 +1,0 @@
-initialization
-modelChanged
-
-	optionPresenter refresh

@@ -1,3 +1,0 @@
-testing
-isMultiple
-	^strategy isMultiple

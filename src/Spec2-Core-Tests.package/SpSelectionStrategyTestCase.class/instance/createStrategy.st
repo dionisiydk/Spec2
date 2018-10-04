@@ -1,3 +1,0 @@
-running
-createStrategy
-	self subclassResponsibility 

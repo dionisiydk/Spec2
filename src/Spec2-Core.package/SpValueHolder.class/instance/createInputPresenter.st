@@ -1,3 +1,0 @@
-accessing
-createInputPresenter
-	^valueAspect createInputPresenterFor: self

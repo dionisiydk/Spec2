@@ -1,3 +1,0 @@
-running
-createTextDecoration
-	^SpNoTextDecoration new

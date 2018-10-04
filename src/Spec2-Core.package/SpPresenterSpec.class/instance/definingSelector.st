@@ -1,3 +1,0 @@
-accessing
-definingSelector
-	^definingMethod selector

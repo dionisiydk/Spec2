@@ -1,4 +1,0 @@
-converting
-convertValueToStringBy: aValueToStringConverter
-
-	^self displayString

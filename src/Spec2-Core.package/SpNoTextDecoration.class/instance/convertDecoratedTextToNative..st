@@ -1,4 +1,0 @@
-operations
-convertDecoratedTextToNative: decoratedString
-
-	^decoratedString

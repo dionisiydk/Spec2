@@ -1,4 +1,0 @@
-events
-simulateModalClose
-	
-	modalRequestSemaphore signal

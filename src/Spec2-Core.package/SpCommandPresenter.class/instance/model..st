@@ -1,4 +1,0 @@
-accessing
-model: aCommandActivatorOrConvertable
-	super model: aCommandActivatorOrConvertable asCommandActivator
-	

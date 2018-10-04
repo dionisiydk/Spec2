@@ -1,3 +1,0 @@
-accessing
-hasManualSelection
-	^tool hasManualSelection

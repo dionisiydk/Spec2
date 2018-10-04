@@ -1,3 +1,0 @@
-queries
-itemCount
-	^items size

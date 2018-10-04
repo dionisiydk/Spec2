@@ -1,3 +1,0 @@
-initialization
-attachToView: aDatasetView
-	self subclassResponsibility 

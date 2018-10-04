@@ -1,3 +1,0 @@
-accessing
-createDataset
-	self subclassResponsibility 

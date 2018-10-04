@@ -1,4 +1,0 @@
-accessing
-defaultMenuItemName
-
-	^result displayString

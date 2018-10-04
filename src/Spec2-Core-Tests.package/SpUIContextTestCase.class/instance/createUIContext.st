@@ -1,3 +1,0 @@
-running
-createUIContext
-	self subclassResponsibility 

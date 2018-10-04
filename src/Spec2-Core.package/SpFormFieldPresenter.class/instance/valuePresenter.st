@@ -1,3 +1,0 @@
-accessing
-valuePresenter
-	^ valuePresenter

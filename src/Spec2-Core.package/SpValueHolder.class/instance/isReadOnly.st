@@ -1,3 +1,0 @@
-testing
-isReadOnly
-	^valueAspect isReadOnly
