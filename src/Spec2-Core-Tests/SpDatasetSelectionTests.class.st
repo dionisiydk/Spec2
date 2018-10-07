@@ -133,6 +133,15 @@ SpDatasetSelectionTests >> testDeselectSingleItem [
 ]
 
 { #category : #tests }
+SpDatasetSelectionTests >> testEnsureSelectedItems [
+	
+	selection ensureSelectedItems: {dataset itemAt: 1. dataset itemAt: 3}.
+	
+	self assert: selection size equals: 2.
+	self assert: selection actualItems equals: #(1 3)
+]
+
+{ #category : #tests }
 SpDatasetSelectionTests >> testExpandUpToItemWhenEmptySelection [
 	
 	selection reset.

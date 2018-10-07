@@ -152,6 +152,14 @@ SpDatasetSelection >> detachFromActualModel: aValueHolder [
 ]
 
 { #category : #controlling }
+SpDatasetSelection >> ensureSelectedItems: datasetItems [
+
+	(datasetItems allSatisfy: [ :each | self includesItem: each ]) ifTrue: [ ^self ].
+	
+	self setNewItems: datasetItems
+]
+
+{ #category : #controlling }
 SpDatasetSelection >> expandUpToItem: aDatasetItem [
 	| addedItems newRegion oldItems |
 	self isEmpty ifTrue: [ ^self setNewItems: { aDatasetItem } ].

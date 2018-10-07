@@ -80,6 +80,7 @@ SpDatasetPresenter >> createCommandContextFor: aDatasetItem [
 
 { #category : #commands }
 SpDatasetPresenter >> createCommandContextForCursorAt: aPoint [
+	self flag: #makeItBetter.
 	"Currently dataset view does not need to detect item at given point 
 	because item contexts are managed by cell presenters.
 	This method called only when event happens in empty space (out of items).
@@ -143,6 +144,18 @@ SpDatasetPresenter >> manualSelection [
 SpDatasetPresenter >> model: aDatasetOrConvertable [
 	super model: aDatasetOrConvertable asSpecDataset
 	
+]
+
+{ #category : #commands }
+SpDatasetPresenter >> openContextMenuFor: datasetItems [
+
+	| context menu |
+	self hasManualSelection ifTrue: [ 
+		self manualSelection ensureSelectedItems: datasetItems].
+	context := itemContextClass for: self selectedItems: datasetItems.
+	menu := CmdContextMenuActivation buildMenuInContext: context.
+	
+	self openContextMenu: menu
 ]
 
 { #category : #controlling }

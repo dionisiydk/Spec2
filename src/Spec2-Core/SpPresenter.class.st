@@ -152,6 +152,8 @@ SpPresenter >> model: anObject [
 { #category : #controlling }
 SpPresenter >> openContextMenu: aMenu [
 
+	aMenu isEmpty ifTrue: [^self].
+	
 	ui openContextMenu: aMenu of: self
 ]
 

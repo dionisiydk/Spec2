@@ -15,12 +15,6 @@ SpOpenDatasetMenuCommand class >> datasetYellowClickActivation [
 	^CmdClickActivation byYellowButtonFor: SpDatasetPresenter 
 ]
 
-{ #category : #'context menu' }
-SpOpenDatasetMenuCommand >> createContextMenu [ 
-
-	^CmdContextMenuActivation buildMenuInContext: datasetPresenter createCommandContext
-]
-
 { #category : #accessing }
 SpOpenDatasetMenuCommand >> datasetPresenter [
 	^ datasetPresenter
@@ -39,11 +33,7 @@ SpOpenDatasetMenuCommand >> defaultMenuItemName [
 { #category : #execution }
 SpOpenDatasetMenuCommand >> execute [
 	
-	| menu |
-	menu := self createContextMenu.
-	menu isEmpty ifTrue: [^self].
-	
-	datasetPresenter openContextMenu: menu
+	datasetPresenter openContextMenuFor: targetItems
 ]
 
 { #category : #execution }
