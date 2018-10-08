@@ -22,6 +22,21 @@ SpValueAspectBuilder class >> forBlock: aBlock [
 		yourself
 ]
 
+{ #category : #'dataset building' }
+SpValueAspectBuilder >> asDataSource [
+
+	^SpListValueDataSource on: self asValueHolder
+]
+
+{ #category : #'dataset building' }
+SpValueAspectBuilder >> asDataSource: buildingBlock [
+
+	| builder |
+	builder := SpListValueDataSourceBuilder for: self asDataSource.
+	buildingBlock value: builder.
+	^builder dataSource
+]
+
 { #category : #'value holders' }
 SpValueAspectBuilder >> asTextValueHolder [
 
